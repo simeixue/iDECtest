@@ -20,7 +20,6 @@
     font-weight: normal;
     font-style: normal;
     }
-
 ul {
   list-style-type:none;
   list-style-image: none;
@@ -543,11 +542,7 @@ input:checked+.switch-slider:before {
   border-image-slice: 33.3333333333333333333333% fill ;
   border-image-repeat: round;
   border-image-width: 1.5;
- 
-  
 
-  
-  
 }
 
 .virus {
@@ -809,7 +804,7 @@ nav {
 
 
 .dark-nav{
-  background-color:  #212832;
+  background-color:  #2128327a;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
@@ -1880,7 +1875,7 @@ a.single-button:hover, a.single-button:active{
 
 .contact-info {
   background-color: #212832;
-  
+  /*position: fixed;*/
 }
 
 .contact-info-content {

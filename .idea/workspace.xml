@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1db84339-bca1-437c-8696-1721e9bfef9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/resources/to_top.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/CSS/main_cssstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/CSS/main_cssstyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/page/DOCUMENTATION/Experiments.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/DOCUMENTATION/Experiments.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/page/DOCUMENTATION/Notebook.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/DOCUMENTATION/Notebook.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/page/PROJECT/Description.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/PROJECT/Description.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/page/PROJECT/Design.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/PROJECT/Design.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/page/PROJECT/Results.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/PROJECT/Results.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/page/Team.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/Team.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/to_top.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -2,26 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1db84339-bca1-437c-8696-1721e9bfef9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/CSS/main_cssstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/CSS/main_cssstyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/page/EXPERIMENTS/Notebook.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/page/EXPERIMENTS/Parts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/page/EXPERIMENTS/Proof of concept.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/page/EXPERIMENTS/Results.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/page/EXPERIMENTS/Safety.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/page/Human practice/Education and Engagement.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/page/Human practice/Integrated Human practice.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/page/Outlook.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/page/DOCUMENTATION/Experiments.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/DOCUMENTATION/Experiments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/page/DOCUMENTATION/Notebook.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/DOCUMENTATION/Notebook.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/page/PROJECT/Description.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/PROJECT/Description.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/page/PROJECT/Design.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/PROJECT/Design.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/page/PROJECT/Engineering.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/page/PROJECT/Hardware.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/page/PROJECT/Modeling.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/page/TEAM/Attribution.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/page/TEAM/Collaboration.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/page/TEAM/Implementation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/page/TEAM/Members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/page/PROJECT/Results.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/PROJECT/Results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/page/Team.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/Team.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

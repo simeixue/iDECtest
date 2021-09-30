@@ -1831,7 +1831,7 @@ a.single-button:hover, a.single-button:active{
 }
 /********* To top arrow for mobile versions ***************/
 #mobile-to-top-arrow {
-  display:none;
+  /*display:none;*/
 }
 .to-top {
     

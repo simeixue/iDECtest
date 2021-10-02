@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1db84339-bca1-437c-8696-1721e9bfef9c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/page/DOCUMENTATION/Experiments.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/DOCUMENTATION/Experiments.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/page/DOCUMENTATION/Notebook.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/DOCUMENTATION/Notebook.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/page/DOCUMENTATION/Safety.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/DOCUMENTATION/Safety.html" afterDir="false" />
@@ -66,21 +67,6 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.41609195" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">

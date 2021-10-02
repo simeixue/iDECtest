@@ -282,14 +282,15 @@ input:checked+.switch-slider:before {
 
 .loader {
   color: #FE9901;
-  background-repeat: repeat;
-  /*width: 80%;*/
+  /*background-repeat: repeat;*/
+  /*width: 40%;*/
   /*height: ;*/
 }
 
 .loader img {
   width: 100%;
 
+  background-repeat: no-repeat;
 }
 
 @-webkit-keyframes loader {

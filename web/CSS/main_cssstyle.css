@@ -789,7 +789,8 @@ header {
 }
 /****** Navbar ******/
 nav {
-  background-color: #2128323d;
+  background: linear-gradient(to right,white,#F6DFEB);
+  /*background-color: #FFDADA;!*导航栏颜色*!*/
   -webkit-box-shadow:  10px 0 5px #2128327a;
           box-shadow:  10px 0 5px #2128327a;
   width: 100%;
@@ -806,7 +807,7 @@ nav {
 
 
 .dark-nav{
-  background-color:  #2128327a;
+  background: linear-gradient(to right,white,#F8EDED);
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
@@ -863,7 +864,7 @@ nav {
   padding-right: 1em;
   padding-left: 1em;
   padding-bottom: 1em;
-  color: #fff;
+  color: black;/*导航栏文字颜色*/
   z-index: 2;
   display: -webkit-box;
   display: -ms-flexbox;

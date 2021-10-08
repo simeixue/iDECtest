@@ -337,7 +337,7 @@ input:checked+.switch-slider:before {
 }
 /******* HOME PAGE *****************/
 .video-div { 
-  padding: 0 6em;
+  /*padding: 0 6em;*/
   background-color: #212832;
 }
 #video-banner{

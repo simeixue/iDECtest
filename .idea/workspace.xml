@@ -2,15 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1db84339-bca1-437c-8696-1721e9bfef9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/resources/all_members.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Advisors/Danjie_Song.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Advisors/Dengxuan_Zhu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Advisors/Hongwei_Zhang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Advisors/Jian_Song.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Advisors/Qinghua_Li.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Advisors/Shuairun_Wang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Advisors/Yaoyao_Liang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Advisors/Yi_Wang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Advisors/Yi_Zheng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Advisors/Zhenyu_Sun.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Advisors/Zhujun_Wei.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Advisors/位竹君/Zhujun Wei.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Advisors/孙珍雨/Zhenyu Sun.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Advisors/宋丹洁/Danjie Song.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Advisors/张鸿伟/Hongwei Zhang.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Advisors/朱登轩/Dengxuan Zhu.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Advisors/李清华/Qinghua Li.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Advisors/李清华/~$nghua Li.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Advisors/梁瑶瑶/Yaoyao Liang.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Advisors/王一/Yi Wang.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Advisors/王帅润/Shuairun Wang.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Advisors/郑义/Yi Zheng.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/page/DOCUMENTATION/Experiments.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/DOCUMENTATION/Experiments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/page/DOCUMENTATION/Notebook.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/DOCUMENTATION/Notebook.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/page/DOCUMENTATION/Safety.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/DOCUMENTATION/Safety.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/page/PROJECT/Description.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/PROJECT/Description.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/page/PROJECT/Design.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/PROJECT/Design.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/page/PROJECT/Results.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/PROJECT/Results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/page/TEAM/Attributions.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/TEAM/Attributions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/page/TEAM/Members.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/TEAM/Members.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

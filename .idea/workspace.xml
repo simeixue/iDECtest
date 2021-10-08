@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1db84339-bca1-437c-8696-1721e9bfef9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/resources/IDEC_homepage.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/all_members.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/CSS/main_cssstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/CSS/main_cssstyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/resources/Loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/Loading.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/resources/PI/刘成伟/Chengwei Liu.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/resources/PI/徐志超/Zhichao Xu.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/resources/PI/徐志超/~$ichao Xu.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/resources/PI/王宇/Yu Wang.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/resources/PI/王鹏超/Pengchao Wang.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/resources/PI/薛志勇/Zheyong Xue.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/resources/PI/隋广超/Guangchao Sui.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/page/DOCUMENTATION/Experiments.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/DOCUMENTATION/Experiments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/page/DOCUMENTATION/Notebook.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/DOCUMENTATION/Notebook.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/page/DOCUMENTATION/Safety.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/DOCUMENTATION/Safety.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/page/PROJECT/Description.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/PROJECT/Description.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/page/PROJECT/Design.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/PROJECT/Design.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/page/PROJECT/Results.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/PROJECT/Results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/page/TEAM/Attributions.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/TEAM/Attributions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/page/TEAM/Members.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/TEAM/Members.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,5 +86,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/index.html</url>
+          <line>131</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

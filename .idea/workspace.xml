@@ -2,7 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1db84339-bca1-437c-8696-1721e9bfef9c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web/resources/Results/fgure15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Results/figure10(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Results/figure10(2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Results/figure11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Results/figure12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Results/figure13(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Results/figure13(2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Results/figure14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Results/figure16(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Results/figure16(2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Results/figure2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Results/figure3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Results/figure4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Results/figure5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Results/figure6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Results/figure7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Results/figure8(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Results/figure8(2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Results/figure9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Baitong_Shen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Beimeng_Zhang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Chao_Chen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Chuyao_Xu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Jiameng_Nie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Jianing_Li.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Jiaqi_Zhang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Jingwen_Chu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Kairui_Su.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Linshan_Cao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Linxi_Jiang.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Meixue_Si.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Muyu_Liu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Peng_Jiang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Qiyun_Zhang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Ruilei_Zhang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Shilong_Deng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Shuhan_Liu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Sunyue_Cai.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Xiangxin_Li.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Xin_Xin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Xinlu_Liu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Xinyao_Yuan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Yangjinghui_Zhang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Yichen_Bao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Yifan_Bian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Yueying_Gao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Zhihao_Wang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Zhongyue_Li.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Zichu_Wang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Zishu_Yang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Student/Ziwei_Pan.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/CSS/main_cssstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/CSS/main_cssstyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/page/PROJECT/Results.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/PROJECT/Results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/page/TEAM/Attributions.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/TEAM/Attributions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/page/TEAM/Members.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/TEAM/Members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/Advisors/Danjie_Song.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/Advisors/Danjie_Song.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/Advisors/Dengxuan_Zhu.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/Advisors/Dengxuan_Zhu.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/Advisors/Hongwei_Zhang.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/Advisors/Hongwei_Zhang.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/Advisors/Jian_Song.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/Advisors/Jian_Song.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/Advisors/Qinghua_Li.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/Advisors/Qinghua_Li.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/Advisors/Shuairun_Wang.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/Advisors/Shuairun_Wang.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/Advisors/Yaoyao_Liang.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/Advisors/Yaoyao_Liang.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/Advisors/Yi_Wang.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/Advisors/Yi_Wang.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/Advisors/Yi_Zheng.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/Advisors/Yi_Zheng.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/Advisors/Zhenyu_Sun.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/Advisors/Zhenyu_Sun.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/Advisors/Zhujun_Wei.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/Advisors/Zhujun_Wei.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/Results/figure1.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/Results/figure1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/Student/Bowen_Zhang.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/Student/Bowen_Zhang.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/Student/Chenhao_Yang.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/Student/Chenhao_Yang.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/Student/Fengqianrui_Chen.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/Student/Fengqianrui_Chen.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/Student/Hongda_Fu.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/Student/Hongda_Fu.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/Student/Juan_Luo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/Student/Juan_Luo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/Student/Peiyao_Chang.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/Student/Peiyao_Chang.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/Student/Shuning_Guo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/Student/Shuning_Guo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/Student/Yi_Dong.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/Student/Yi_Dong.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/Student/Yulong_Zhang.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/Student/Yulong_Zhang.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +134,19 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.41609195" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">

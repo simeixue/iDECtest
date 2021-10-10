@@ -1314,7 +1314,6 @@ a.main-nav-link.active {
 /************ Carousel ***********************/
 .sections-container{
   width: 90%;
-  text-align: center;
   margin:  auto;
 }
 
@@ -1347,7 +1346,8 @@ a.main-nav-link.active {
 
 .main-body {
   /*padding: 0 0 1em 0;*/
-  text-align: center;
+  padding-left: 10px;
+  /*text-align: center;*/
   /*width: 100vh;*/
   /*margin: 0 auto;*/
 }
@@ -1412,6 +1412,7 @@ a.main-nav-link.active {
 .figure-container p, .figure-container-no-padding p, .figure-container2 p{
   color: #636262;
   font-size: 0.8em;
+  text-align: center;
 }
 .figure-container-no-padding, .figure-container2 {
   position: relative;

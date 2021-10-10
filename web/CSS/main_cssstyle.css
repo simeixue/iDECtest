@@ -1314,6 +1314,7 @@ a.main-nav-link.active {
 /************ Carousel ***********************/
 .sections-container{
   width: 90%;
+  text-align: center;
   margin:  auto;
 }
 
@@ -1345,8 +1346,10 @@ a.main-nav-link.active {
 
 
 .main-body {
-  padding: 0 1em 1em 1em;
-  max-width: 1000px;
+  /*padding: 0 0 1em 0;*/
+  text-align: center;
+  /*width: 100vh;*/
+  /*margin: 0 auto;*/
 }
 
 .main-body p {
@@ -2159,6 +2162,8 @@ input[type=range]{
 }
 
 .team-flexbox{
+  /*display: flex;*/
+  /*flex-wrap: nowrap;*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

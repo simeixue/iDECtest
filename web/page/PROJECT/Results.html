@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iDEC NEFU_China 2021</title>
     <link rel="stylesheet" type="text/css" href="../../CSS/main_cssstyle.css">
+    <style>
+        /*h3{*/
+        /*    color: #FE9901;*/
+        /*    font-size: 1.5em;*/
+        /*}*/
+        p{
+            text-indent:2em
+        }
+    </style>
 </head>
 <body>
 <!--加载动画-->
@@ -181,19 +190,22 @@
     <aside class="sticky">
         <div id="sub-nav"class="sub-navigation-content">
             <div class="sub-navigation-chapter cool-link2">
-                <a class= "main-nav-link" linkedidchapter="slide1-chapter1">小标题1</a><!------Chapter one -->
+                <a class= "main-nav-link" linkedidchapter="slide1-chapter1">Overview</a><!------Chapter one -->
             </div>
             <div class="sub-navigation-chapter cool-link2">
-                <a class= "main-nav-link" linkedidchapter="slide1-chapter2">小标题2</a><!------Chapter Two -->
+                <a class= "main-nav-link" linkedidchapter="slide1-chapter2">Biosensor</a><!------Chapter Two -->
             </div>
             <div class="sub-navigation-chapter cool-link2">
-                <a class= "main-nav-link" linkedidchapter="slide1-chapter3">小标题3</a><!------Chapter Three -->
+                <a class= "main-nav-link" linkedidchapter="slide1-chapter3">Selectivity</a><!------Chapter Three -->
             </div>
             <div class="sub-navigation-chapter cool-link2">
-                <a class= "main-nav-link" linkedidchapter="slide1-chapter4">小标题4</a><!------Chapter Three -->
+                <a class= "main-nav-link" linkedidchapter="slide1-chapter4">Testing</a><!------Chapter Three -->
             </div>
             <div class="sub-navigation-chapter cool-link2">
-                <a class= "main-nav-link" linkedidchapter="slide1-chapter5">参考文献</a><!------Chapter Three -->
+                <a class= "main-nav-link" linkedidchapter="slide1-chapter5">Evolution</a><!------Chapter Three -->
+            </div>
+            <div class="sub-navigation-chapter cool-link2">
+                <a class= "main-nav-link" linkedidchapter="slide1-chapter6">References</a><!------Chapter Three -->
             </div>
             <!--            返回顶部箭头-->
             <div  id="to-top-arrow">
@@ -208,71 +220,64 @@
                 <div class="main-body">
                     <div class="main-body-content">
                         <div id="slide1-chapter1">
-                            <h2> 小标题1</h2>
-                            <p> *******(内容)引用文献1(点击跳转到参考文献部分)<a linkedidchapter="slide1-chapter7" class="main-nav-link hyperlink"><sup>1-4</sup></a>. ************。引用文献2<a linkedidchapter="slide1-chapter7" class="main-nav-link hyperlink"><sup>5,6</sup></a>. However, ******</p>
-                        </div>
-                        <!--插入图片，左图片，右解释-->
-                        <div class="figure-wrapper">
-                            <div class="figure-container width50">
-                                <img src="../../resources/temp.jpg" alt="">
-                                <p><strong>图片*(加粗).</strong> 图片的详细说明</p>
-                            </div>
-                            <div class="side-box-content width50">
-                                <p><i class="fas fa-mouse-pointer"></i> ********* <a href="https://2020.igem.org/Team:Leiden/Model" class="hyperlink">点击可跳转到其他页面</a> ********</p>
-                            </div>
+                            <h2>Overview</h2>
+                            <ol>
+                                <li>We constructed a biosensor based on allosteric transcription factors (aTFs).</li>
+                                <li>We make a characterization of PobRWT 's ligand responses.</li>
+                                <li>We design and construct a PobR mutant library.</li>
+                                <li>We screened out two PobRmuts that showed significant activation in response to HMA.</li>
+                                <li>We test the ligand specificity and detect the ranges of the two selected PobRmuts.</li>
+                                <li>We evaluate the function of individual amino mutant in ligand responses.</li>
+                                <li>HMA-Responsive Sensor-Driven adaptive laboratory evolution (ALE).</li>
+                            </ol>
                         </div>
                         <div id="slide1-chapter2">
-                            <h2> 标题2</h2>
-                            <p> 内容</p>
-                            <!--弹性布局三张图片-->
-                            <div class="figure-container ">
-                                <div class="figure-wrapper">
-                                    <div class="figure-container width30">
-                                        <img src="../../resources/temp.jpg" alt="">
-                                    </div>
-                                    <div class="figure-container width30">
-                                        <img src="../../resources/temp.jpg" alt="">
-                                    </div>
-                                    <div class="figure-container width25">
-                                        <img src="../../resources/temp.jpg" alt="">
-                                    </div>
-
+                            <h2>Biosensor</h2>
+                            <h3>Overview</h3>
+                            <p>In this study, we aimed to develop an allosteric transcription factors (aTFs) based biosensor for HMA through directed evolution.We constructed the expression vector named pYB1a-PobR-eGFP-Cmr, which serves as the basic tool for us to screen out high-yielding HMA strains.</p>
+                            <h3>ATFs-PobR</h3>
+                            <p>Biosensors based on aTFs can respond to specific compounds, or a series of compounds, with structural similarity, and subsequently activate reporter gene expression, which have been leveraged as tools for dynamic metabolic flux control, adaptive evolution, high-throughput screening and metabolite quantification. [1-4] However, there are notreports on aTF that can respond to HMA directly. To our delight, HMA has a similar structure of 4HB, so we chose PobR that can respond to 4HB as our basic biosensor. Our strategy is that we select those strains that are able to product much HMA by randomly mutating PobR to obtain PobRmut that responds to HMA specifically. PobR, a member of the iclR superfamily, is an aTF in Acinetobacter, and consists of 271 amino acids. In the Acinetobacter sp. strain ADP1, PobR can activate the PobA promoter (PpobA) involved in the 4HB metabolism [5].</p>
+                            <h3>Expression vector</h3>
+                            <div class="figure-wrapper">
+                                <p class="width40-no-margin-text">According to the codon preference to EScherichia coli, we synthesized the sequence encoding PobR protein, and constructed the expression vector pYB1a-PobR-eGFP-Cmr as shown in the Figure1.</p>
+                                <!--居右的图片-->
+                                <div class="figure-container width30">
+                                    <img src="../../resources/Results/figure1.png" alt="">
+                                    <p><strong>Figure1. </strong>A schematic diagram of biosensor</p>
                                 </div>
-                                <p>图片解释</p>
                             </div>
-                            <p>
-                                内容
-                            </p>
-                            <p>内容 <a href="https://www.baidu.com/" class="hyperlink">我是链接，点我跳转到百度</a> 页面!</p>
+                            <p>In this expression vector, the PobR gene is driven by the constitutive promoter while the eGFP and Cmr resistance reporter genes are driven by the PobA promoter. The consensus element (Oi) can be bound by PobR to inhibit the expression of reporter genes. However, the binding of 4HB to PobR can make their complex fall off from the consensus element (Oi), which allows the reporter gene to express. In this way, the production of 4HB in EScherichia coli can be indicated by observing the OD600 and fluorescence intensity of EScherichia coli under the condition of continuously increasing the concentration of chloramphenicol. Furthermore, we can screen E. coli with high HMA production by randomly mutating PobR to obtain PobRmut that responds to HMA specifically.</p>
                         </div>
                         <div id="slide1-chapter3">
-                            <h2> 标题3 </h2>
-                            <p>我是内容</p>
-                            <p>
-                                我是内容
-                            </p>
-                            <div class="figure-container auto-margin">
-                                <img src="../../resources/temp.jpg" alt="">
-                                <p><strong>我是图片</strong> 图片解释</p>
+                            <h2>Selectivity</h2>
+                            <h3>Overview</h3>
+                            <p>PobRmut biosensors capable of highly responding to HMA were screened by two reporter genes that were chloramphenicol resistance gene and green fluorescent protein gene and used as visual tools for HMA production in E. coli to assist adaptive laboratory evolution.</p>
+                            <p>We screened out two mutants P5-B7 and P7-E8 that showed significant activation in response to HMA.</p>
+                            <h3>Characterization of ligand responses of wild type PobR</h3>
+                            <p>In order to test the sensitivity of PobR biosensor in pYB1a-PobR-eGFP-Cmr expression vector, we cultured EScherichia coli carrying the expression vector in deep hole plates with increasing 4HB concentration gradually.</p>
+                            <div class="figure-wrapper">
+                                <p class="width40-no-margin-text">The change of RFU/OD600 value of E. coli carrying pYB1a-PobR-eGFP-Cmr plasmid after culturing 12 hours with the increase concentration of 4HB added to the culture medium was obtained as shown in the Figure2.<br>&nbsp &nbsp It can be concluded that E. coli carrying pYB1a-PobR-eGFP-Cmr plasmid begins to respond at a concentration as low as 0.01g/L of 4HB and reaches saturation at 0.06g/L of 4HB.</p>
+                                <!--居右的图片-->
+                                <div class="figure-container width30">
+                                    <img src="../../resources/temp.jpg" alt="">
+                                    <p><strong>Figure2. </strong>Dose response curves of the 4HB biosensor</p>
+                                </div>
                             </div>
+                            <p>In order to test the specificity of PobR biosensor in pYB1a-PobR-eGFP-Cmr expression vector, we characterized the response of E. coli carrying the expression vector to some aromatic compounds included HMA with similar structure to 4HB by repeating the above experiments. These aromatic compounds include: </p>
+                            <div class="figure-wrapper">
+                                <div class="figure-container width30">
+                                    <img src="../../resources/temp.jpg" alt="">
+                                    <p><strong>Figure4.</strong>Responses of the biosensor treated by 4HB analogs.</p>
+                                </div>
+                                <p class="width40-no-margin-text">The change of RFU/OD600 value of E. coli carrying pYB1a-PobR-eGFP-Cmr plasmid after culturing 12 hours with the increase concentration of 4HB added to the culture medium was obtained as shown in the Figure2.<br>&nbsp &nbsp It can be concluded that E. coli carrying pYB1a-PobR-eGFP-Cmr plasmid begins to respond at a concentration as low as 0.01g/L of 4HB and reaches saturation at 0.06g/L of 4HB.</p>
+                            </div>
+                            <h3>Design and construction of the PobR mutant library</h3>
+                            <p>As the reason for the location, number and direction of randomly mutated bases are not clear and only generating a large number of random mutations on PobR can we produce PobR mutants that are specific to HMA and no longer responsive to 4HB probably. </p>
 
-                            <div class="side-box-content auto-margin">
-                                <h3><i class="fas fa-hourglass-half"></i> 子标题</h3>
-                                <p>
-                                    这里是灰色地带，但我可以 <span class="highlight">高亮</span> 参考文献<a linkedidchapter="slide1-chapter7" class="main-nav-link hyperlink"><sup>26-28</sup></a>. *******</a>.
-                                </p>
-                            </div>
-                            <br>
-                            <div class="side-box-content auto-margin">
-                                <h3> <i class="fas fa-viruses"></i> 子标题</h3>
-                                <p>
-                                    这里是灰色地带，但我可以 <span class="highlight">高亮</span> 参考文献<a linkedidchapter="slide1-chapter7" class="main-nav-link hyperlink"><sup>26-28</sup></a>. *******</a>.
-                                </p>
-                            </div>
 
                         </div>
                         <div id="slide1-chapter4">
-                            <h2>标题4</h2>
+                            <h2>Testing</h2>
                             <div class="figure-wrapper">
                                 <p class="width60-no-margin-text"><a href="https://www.baidu.com/" class="hyperlink">我是连接，点我跳转到百度</a>  内容 <a href="https://www.baidu.com/" class="hyperlink">链接</a> ***.</p>
                                 <!--居右的图片-->
@@ -285,13 +290,29 @@
                                 <p> <i class="far fa-lightbulb"></i> 这里是灰色地带<a linkedidchapter="slide1-chapter5" class="main-nav-link hyperlink"><sup>32</sup></a>. ****</p>
                             </div>
                         </div>
-                        <div class="references" id="slide1-chapter5">
-                            <h2> 参考文献</h2>
+                        <div id="slide1-chapter5">
+                            <h2>Evolution</h2>
+                            <p>*****</p>
+                        </div>
+                        <div class="references" id="slide1-chapter6">
+                            <h2>References</h2>
                             <p>
                             <ol>
-                                <li>文献1. Available from: <a href="" class="hyperlink" target="_blank" >文献地址</a></li>
-                                <li>文献2. Available from: <a href="" class="hyperlink" target="_blank" >文献地址</a></li>
-                                <li>文献3. Available from: <a href="" class="hyperlink" target="_blank" >文献地址</a></li>
+                                <li>Gwon DA, Seok JY, Jung GY and Lee JW. Biosensor-Assisted Adaptive Laboratory Evolution for Violacein Production. Int J Mol Sci, 2021, 22:6594.</li>
+                                <li>Kasey CM, Zerrad M, Li Y, Cropp TA and Williams GJ. Development of Transcription Factor-Based Designer Macrolide Biosensors for Metabolic Engineering and Synthetic Biology. ACS Synth Biol, 2018, 7:227-239.</li>
+                                <li>Cheng F, Tang XL and Kardashliev T. Transcription Factor-Based Biosensors in High-Throughput Screening: Advances and Applications. Biotechnol J, 2018, 13:e1700648.</li>
+                                <li>Liang C, Zhang X, Wu J, Mu S, Wu Z, Jin JM and Tang SY. Dynamic control of toxic natural product biosynthesis by an artificial regulatory circuit. Metab Eng, 2020, 57:239-246.</li>
+                                <li>Molina-Henares AJ, Krell T, Guazzaroni ME, Segura A and Ramos JL. Members of the IclR family of bacterial transcriptional regulators function as activators and/or repressors. Fems Microbiology Reviews, 2006, 30:157-186.</li>
+                                <li>Miyazaki K and Takenouchi M. Creating random mutagenesis libraries using megaprimer PCR of whole plasmid. Biotechniques, 2002, 33:1033-1034, 1036-1038.</li>
+                                <li>Machado LFM, Currin A and Dixon N. Directed evolution of the PcaV allosteric transcription factor to generate a biosensor for aromatic aldehydes. J Biol Eng, 2019, 13:91.</li>
+                                <li>Raman S, Taylor N, Genuth N, Fields S and Church GM. Engineering allostery. Trends Genet, 2014, 30:521-528.</li>
+                                <li>Ogawa Y, Katsuyama Y, Ueno K and Ohnishi Y. Switching the Ligand Specificity of the Biosensor XylS from meta to para-Toluic Acid through Directed Evolution Exploiting a Dual Selection System. ACS Synth Biol, 2019, 8:2679-2689.</li>
+                                <li>Laskowski RA and Swindells MB. LigPlot+: multiple ligand-protein interaction diagrams for drug discovery. J Chem Inf Model, 2011, 51:2778-2786.</li>
+                                <li>Jha RK, Kern TL, Kim Y, Tesar C, Jedrzejczak R, Joachimiak A and Strauss CE. A microbial sensor for organophosphate hydrolysis exploiting an engineered specificity switch in a transcription factor. Nucleic Acids Res, 2016, 44:8490-8500.</li>
+                                <li>Scholz O, Köstner M, Reich M, Gastiger S and Hillen W. Teaching TetR to recognize a new inducer. J Mol Biol, 2003, 329:217-227.</li>
+                                <li>Badran, A.H. and D.R. Liu. Development of potent in vivo mutagenesis plasmids with broad mutational spectra. Nat Commun, 2015. 6: p. 8425.</li>
+
+
                             </ol>
                             </p>
                         </div>

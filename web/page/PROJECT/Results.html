@@ -11,7 +11,8 @@
         /*    font-size: 1.5em;*/
         /*}*/
         p{
-            text-indent:2em
+            text-indent:2em;
+            line-height: 1.5;
         }
     </style>
 </head>
@@ -221,12 +222,12 @@
                     <div class="main-body-content">
                         <div id="slide1-chapter1">
                             <h2>Overview</h2>
-                            <ol>
+                            <ol style="line-height: 1.8">
                                 <li>We constructed a biosensor based on allosteric transcription factors (aTFs).</li>
-                                <li>We make a characterization of PobRWT 's ligand responses.</li>
+                                <li>We made a characterization of wild type PobR ligand responses.</li>
                                 <li>We design and construct a PobR mutant library.</li>
-                                <li>We screened out two PobRmuts that showed significant activation in response to HMA.</li>
-                                <li>We test the ligand specificity and detect the ranges of the two selected PobRmuts.</li>
+                                <li>We screened out two PobR mutants that showed significant activation in response to HMA.</li>
+                                <li>We tested the ligand specificity and detected the ranges of the two selected PobR mutants.</li>
                                 <li>We evaluate the function of individual amino mutant in ligand responses.</li>
                                 <li>HMA-Responsive Sensor-Driven adaptive laboratory evolution (ALE).</li>
                             </ol>
@@ -236,88 +237,171 @@
                             <h3>Overview</h3>
                             <p>In this study, we aimed to develop an allosteric transcription factors (aTFs) based biosensor for HMA through directed evolution.We constructed the expression vector named pYB1a-PobR-eGFP-Cmr, which serves as the basic tool for us to screen out high-yielding HMA strains.</p>
                             <h3>ATFs-PobR</h3>
-                            <p>Biosensors based on aTFs can respond to specific compounds, or a series of compounds, with structural similarity, and subsequently activate reporter gene expression, which have been leveraged as tools for dynamic metabolic flux control, adaptive evolution, high-throughput screening and metabolite quantification. [1-4] However, there are notreports on aTF that can respond to HMA directly. To our delight, HMA has a similar structure of 4HB, so we chose PobR that can respond to 4HB as our basic biosensor. Our strategy is that we select those strains that are able to product much HMA by randomly mutating PobR to obtain PobRmut that responds to HMA specifically. PobR, a member of the iclR superfamily, is an aTF in Acinetobacter, and consists of 271 amino acids. In the Acinetobacter sp. strain ADP1, PobR can activate the PobA promoter (PpobA) involved in the 4HB metabolism [5].</p>
+                            <p>Biosensors based on aTFs can respond to specific compounds, or a series of compounds, with structural similarity, and subsequently activate reporter gene expression, which have been leveraged as tools for dynamic metabolic flux control, adaptive evolution, high-throughput screening and metabolite quantification <a linkedidchapter="r1-4" class="main-nav-link hyperlink"><sup>[1-4]</sup></a>. However, there are not reports on aTFs that can respond to HMA directly. To our delight, HMA has a similar structure of 4HB, so we chose PobR that can respond to 4HB as our basic biosensor. Our strategy is that we select those strains that are able to product much HMA by randomly mutating PobR to obtain PobR mutant that responds to HMA specifically. PobR, a member of the iclR superfamily, is an aTF in Acinetobacter, and consists of 271 amino acids. In the Acinetobacter sp. strain ADP1, PobR can activate the PobA promoter (PpobA) involved in the 4HB metabolism <a linkedidchapter="r5" class="main-nav-link hyperlink"><sup>[5]</sup></a>.</p>
                             <h3>Expression vector</h3>
-                            <div class="figure-wrapper">
-                                <p class="width40-no-margin-text" style="padding: 6% 0">According to the codon preference to EScherichia coli, we synthesized the sequence encoding PobR protein, and constructed the expression vector pYB1a-PobR-eGFP-Cmr as shown in the Figure1.</p>
-                                <!--居右的图片-->
-                                <div class="figure-container width40">
-                                    <img src="../../resources/Results/figure1.png" alt="">
-                                    <p><strong>Figure1. </strong>A schematic diagram of biosensor</p>
-                                </div>
+                            <div class="figure-container auto-margin">
+                                <img src="../../resources/Results/figure1.png" alt="">
+                                <p><strong>Figure1.</strong>A schematic diagram of biosensor</p>
                             </div>
-                            <p>In this expression vector, the PobR gene is driven by the constitutive promoter while the eGFP and Cmr resistance reporter genes are driven by the PobA promoter. The consensus element (Oi) can be bound by PobR to inhibit the expression of reporter genes. However, the binding of 4HB to PobR can make their complex fall off from the consensus element (Oi), which allows the reporter gene to express. In this way, the production of 4HB in EScherichia coli can be indicated by observing the OD600 and fluorescence intensity of EScherichia coli under the condition of continuously increasing the concentration of chloramphenicol. Furthermore, we can screen E. coli with high HMA production by randomly mutating PobR to obtain PobRmut that responds to HMA specifically.</p>
+                            <p>According to the codon preference to <i>EScherichia coli</i>, we synthesized the sequence encoding PobR protein, and constructed the expression vector pYB1a-PobR-eGFP-Cmr as shown in the Figure 1.</p>
+                            <p>In this expression vector, the PobR gene is driven by the constitutive promoter while the eGFP and Cmr resistance reporter genes are driven by the PobA promoter. The consensus element (Oi) can be bound by PobR to inhibit the expression of reporter genes. However, the binding of 4HB to PobR can make their complex fall off from the consensus element (Oi), which allows the reporter gene to express. In this way, the production of 4HB in <i>EScherichia coli</i> can be indicated by observing the OD<sub>600</sub> and fluorescence intensity of <i>EScherichia coli</i> under the condition of continuously increasing the concentration of chloramphenicol. Furthermore, we can screen <i>E. coli</i> with high HMA production by randomly mutating PobR to obtain PobR<sup>mut</sup> that responds to HMA specifically.</p>
                         </div>
                         <div id="slide1-chapter3">
                             <h2>Selectivity</h2>
                             <h3>Overview</h3>
-                            <p>PobRmut biosensors capable of highly responding to HMA were screened by two reporter genes that were chloramphenicol resistance gene and green fluorescent protein gene and used as visual tools for HMA production in E. coli to assist adaptive laboratory evolution.</p>
-                            <p>We screened out two mutants P5-B7 and P7-E8 that showed significant activation in response to HMA.</p>
+                            <p>PobR<sup>mut</sup> biosensors capable of highly responding to HMA were screened by two reporter genes that were chloramphenicol resistance gene and green fluorescent protein gene and used as visual tools for HMA production in <i>E. coli</i> to assist adaptive laboratory evolution. We screened out two mutants P5-B7 and P7-E8 that showed significant activation in response to HMA.</p>
                             <h3>Characterization of ligand responses of wild type PobR</h3>
-                            <p>In order to test the sensitivity of PobR biosensor in pYB1a-PobR-eGFP-Cmr expression vector, we cultured EScherichia coli carrying the expression vector in deep hole plates with increasing 4HB concentration gradually.</p>
-                            <div class="figure-wrapper">
-                                <p class="width40-no-margin-text">The change of RFU/OD600 value of E. coli carrying pYB1a-PobR-eGFP-Cmr plasmid after culturing 12 hours with the increase concentration of 4HB added to the culture medium was obtained as shown in the Figure2.<br>&nbsp &nbsp It can be concluded that E. coli carrying pYB1a-PobR-eGFP-Cmr plasmid begins to respond at a concentration as low as 0.01g/L of 4HB and reaches saturation at 0.06g/L of 4HB.</p>
-                                <!--居右的图片-->
-                                <div class="figure-container width30">
-                                    <img src="../../resources/Results/figure2.png" alt="">
-                                    <p><strong>Figure2.</strong>Dose response curves of the 4HB biosensor</p>
-                                </div>
+                            <p>In order to test the sensitivity of PobR biosensor in pYB1a-PobR-eGFP-Cmr expression vector, we cultured <i>EScherichia coli</i> carrying the expression vector in deep hole plates with increasing 4HB concentration gradually.</p>
+                            <div class="figure-container auto-margin">
+                                <img src="../../resources/Results/figure2.png" alt="">
+                                <p><strong>Figure2.</strong>Dose response curves of the 4HB biosensor</p>
                             </div>
-                            <p>In order to test the specificity of PobR biosensor in pYB1a-PobR-eGFP-Cmr expression vector, we characterized the response of E. coli carrying the expression vector to some aromatic compounds included HMA with similar structure to 4HB by repeating the above experiments. These aromatic compounds include: </p>
+                            <p>The change of RFU/OD<sub>600</sub> value of <i>E. coli</i> carrying pYB1a-PobR-eGFP-Cmr plasmid after culturing 12 hours with the increase concentration of 4HB added to the culture medium was obtained as shown in the Figure 2.</p>
+                            <p>It can be concluded that <i>E. coli</i> carrying pYB1a-PobR-eGFP-Cmr plasmid begins to respond at a concentration as low as 0.01g/L of 4HB and reaches saturation at 0.06g/L of 4HB.</p>
+                            <p>In order to test the specificity of PobR biosensor in pYB1a-PobR-eGFP-Cmr expression vector, we characterized the response of <i>E. coli</i> carrying the expression vector to some aromatic compounds which have similar structures to HMA by repeating the above experiments. These aromatic compounds include: </p>
                             <div class="figure-container auto-margin">
                                 <img src="../../resources/Results/figure3.png" alt="">
                                 <p><strong>Figure3.</strong>Chemical structures of the 4HB aralogs.</p>
-                                <p>HMA, mandelic acid (MA), hydroxyphenylpyruvate (HPP), phenylpyruvate (PPA), tryptophan (Trp), and phenylalanine (Phe).</p>
                             </div>
-                            <div class="figure-wrapper">
-                                <div class="figure-container width30">
-                                    <img src="../../resources/Results/figure4.png" alt="">
-                                    <p><strong>Figure4.</strong>Responses of the biosensor treated by 4HB analogs.</p>
-                                </div>
-                                <p class="width40-no-margin-text">The change of RFU/OD600 value of E. coli carrying pYB1a-PobR-eGFP-Cmr plasmid after culturing 12 hours with the increase concentration of 4HB added to the culture medium was obtained as shown in the Figure2.<br>&nbsp &nbsp It can be concluded that E. coli carrying pYB1a-PobR-eGFP-Cmr plasmid begins to respond at a concentration as low as 0.01g/L of 4HB and reaches saturation at 0.06g/L of 4HB.</p>
+                            <p style="text-indent: 0em">HMA, mandelic acid (MA), hydroxyphenylpyruvate (HPP), phenylpyruvate (PPA), tryptophan (Trp), and phenylalanine (Phe).</p>
+                            <div class="figure-container auto-margin">
+                                <img src="../../resources/Results/figure4.png" alt="">
+                                <p><strong>Figure4.</strong>Responses of the biosensor treated by 4HB analogs.</p>
                             </div>
+                            <p>Our experimental results showed that <i>E. coli</i> carrying pYB1a-PobR-eGFP-Cmr plasmid did not respond to these aromatic compounds even at a concentration up to 0.1g/L.</p>
+                            <p>Therefore, all of them did not have the ability to remove the inhibition of PobR on the transcriptional activity of pobA promoter.</p>
                             <h3>Design and construction of the PobR mutant library</h3>
-                            <p>As the reason for the location, number and direction of randomly mutated bases are not clear and only generating a large number of random mutations on PobR can we produce PobR mutants that are specific to HMA and no longer responsive to 4HB probably. </p>
-
-
+                            <p>Due to the number and directions of randomly mutated bases are not clear, only generating a large number of random mutations on PobR can we produce PobR mutants that are specific to HMA and no longer responsive to 4HB probably.</p>
+                            <div class="figure-container auto-margin">
+                                <img src="../../resources/Results/figure5.png" alt="">
+                                <p><strong>Figure5.</strong>A schematic diagram of Megawhop PCR reaction.</p>
+                            </div>
+                            <p>Based on the above reasons, we used pYB1a-PobR-eGFP-Cmr as a template to conduct error-prone PCR only target at PobR. The purified PCR product was used as Megaprimers and pYB1a-PobR-eGFP-Cmr was used as the template for Megawhop PCR reaction <a linkedidchapter="r6" class="main-nav-link hyperlink"><sup>[6]</sup></a>.</p>
+                            <p>Finally, a large number of amplified ring-opening plasmid pYB1a- PobR<sup>mut</sup> -eGFP-Cmr whose PobR gene was replaced by error-prone PCR product PobR<sup>mut</sup> was obtained. The methylated primary plasmid pYB1a-PobR-eGFP-Cmr was cut off by DpnI enzyme. And then, the gap of ring-opening plasmid pYB1a- PobR<sup>mut</sup> -eGFP-Cmr was linked by T4 DNA ligase.</p>
+                            <div class="figure-container auto-margin">
+                                <img src="../../resources/Results/figure6.png" alt="">
+                                <p><strong>Figure6.</strong>The mutation sites in PobR sequence.</p>
+                            </div>
+                            <p>Transformation of the generated library of PobR<sup>mut</sup> with highly random mutations into <i>EScherichia coli</i> DH5ɑ yielded 5.5×105 transmutants approximately, which were evaluated through using previously reported methods <a linkedidchapter="r7" class="main-nav-link hyperlink"><sup>[7]</sup></a>. Ten clones were randomly selected and sequenced in the CDS region of their PobR<sup>mut</sup>, and multiple mutations were found with an average mutation rate of 0.3%.</p>
+                            <h3>Screening for HMA-responsive PobR mutants</h3>
+                            <p>Using our two reporter genes, mutated randomly PobR<sup>mut</sup>, which can bind to HMA and fall off from the consensus element, will make HMA lifting the inhibition of downstream gene expression of PpobA come true. We monitored the difficulty of PobR<sup>mut</sup> binding to HMA and the transcriptional activity of PpobA quantitatively by means of adding a certain concentration of chloramphenicol and HMA to the medium and observing OD<sub>600</sub> and green fluorescence intensity after a certain period of culture. Due to the unpredictability and multi-directionality of random mutations, it was very difficult for us to obtain PobR<sup>mut</sup> that was highly responsive to HMA but not to 4HB. As a result, we started screening initially by adding a lower concentration of chloramphenicol.</p>
+                            <div class="figure-container auto-margin">
+                                <img src="../../resources/Results/figure7.png" alt="">
+                                <p><strong>Figure7.</strong>The growth of the bacteria containing pYB1a-PobR<sup>WT</sup> -eGFP-Cmr plasmid on the plates in the absence or presence of 0.1g/L 4HB and 20μg/L chloramphenicol (Cmr).</p>
+                            </div>
+                            <p>Our results showed that the final concentration of 20μg/L chloramphenicol could inhibit the expression of the chloramphenicol resistance gene at the background level of <i>EScherichia coli</i> completely. In other words, <i>EScherichia coli</i> containing PobR<sup>mut</sup> that could not respond to HMA could not grow at the final concentration of chloramphenicol 20μg/L without the addition of 4HB to the medium. In addition, <i>EScherichia coli</i> containing PobR<sup>WT</sup> could grow when the 4HB was added to the medium at the concentration of 1g/L. Therefore, we believed that the final concentration of 20μg/L chloramphenicol could be used as our screening method.</p>
+                            <p>In the first round of our screening, only chloramphenicol resistance genes were selected as our screening markers. The PobR mutant library was transfected into <i>EScherichia coli</i> in large quantities and cultured in a plate containing 1g/L HMA and 20μg/L chloramphenicol. Most PobR mutants are non-responsive to HMA, which may be due to failure to generate HMA-responsive heterostructures or conformational distortions of DNA binding patterns in PobR mutants <a linkedidchapter="r8" class="main-nav-link hyperlink"><sup>[8]</sup></a>.</p>
+                            <p>After 12 hours of culture, only 639 clones survived in the chloramphenicol selection in 5.5×105 transmutants. These 639 clones were inoculated into 96-well plates containing 1g/L HMA and 20μg/L chloramphenicol respectively. After 12 h culture, the OD<sub>600   </sub> and green fluorescence intensity of these clones were measured, and 83 clones with a GFP/OD<sub>600</sub> ratio greater than 800 were selected for further screening and characterization finally.</p>
+                            <div class="figure-container ">
+                                <div class="figure-wrapper">
+                                    <div class="figure-container width50">
+                                        <img src="../../resources/Results/figure8(1).png" alt="">
+                                    </div>
+                                    <div class="figure-container width75">
+                                        <img src="../../resources/Results/figure8(2).png" alt="">
+                                    </div>
+                                </div>
+                                <p><strong>Figure 8.</strong>The screening of the random PobR mutagenesis library. (A) Identification of 83 PobR mutants with their fluorescence intensity higher than 800 in response to HMA treatment. (B) The top ten PobR mutants with highest fluorescence signal when treated by 4HB and HMA.</p>
+                            </div>
+                            <p>Among them, 10 clones with relatively high GFP/OD<sub>600</sub> were tested for their response to 0.1 g/L of 4HB, the native allosteric inducer of PobR<sup>WT</sup>. Compared to PobR<sup>WT</sup>, several mutants, such as P7-E8 and P4-A9, exhibited increased GFP signal in the absence of any inducer, but could still be further activated by 4HB. However, the mutants P5-A10, P2-E12 and P1-E6 showed constitutive GFP expression irrespective of the presence or absence of the inducers. Interestingly, we identified mutants P5-B7 and P7-E8 that exhibited significant activation in response of HMA. Therefore, these two mutants were selected for further studies.</p>
                         </div>
                         <div id="slide1-chapter4">
                             <h2>Testing</h2>
-                            <div class="figure-wrapper">
-                                <p class="width60-no-margin-text"><a href="https://www.baidu.com/" class="hyperlink">我是连接，点我跳转到百度</a>  内容 <a href="https://www.baidu.com/" class="hyperlink">链接</a> ***.</p>
-                                <!--居右的图片-->
-                                <div class="figure-container width40">
-                                    <img src="../../resources/temp.jpg" alt="">
-                                    <p><strong>我是图片</strong> 居右的图片</p>
-                                </div>
+                            <h3>Overview</h3>
+                            <p>In this section, two strains p5-B7 and P7-E8 that were screened for HMA responsiveness were tested for HMA gradient and specificity, and the obtained clones were further characterized. By sequencing the genes and comparing the results with wild-type gene sequences, we assessed the contribution of each altered amino acid in the mutants to the selection of PobR protein ligands.</p>
+                            <h3>Ligand specificity and detection ranges of the two selected PobR mutants</h3>
+                            <p>To determine the responsiveness of the ligands of the pobr mutant, we incubated bacteria containing P5-B7 and P7-E8 plasmids in LB medium at concentrations of 0.01-4 g/L HMA and measured OD<sub>600</sub> with GFP signal at 12 hours. It was determined that the biosensor of P5-B7 and P7-E8 exhibited more than 3 or 2 times of maximum induction at 2.0-3.5 g/L of HMA, respectively, compared with bacteria without HMA treatment. (Figure 9)</p>
+                            <div class="figure-container auto-margin">
+                                <img src="../../resources/Results/figure9.png" alt="">
+                                <p><strong>Figure9.</strong>Analyses of fluorescence changes of PobR<sup>WT</sup>, P5-B7 or P7-E8 in response to HMA treatment.</p>
                             </div>
-                            <div class="side-box-content auto-margin">
-                                <p> <i class="far fa-lightbulb"></i> 这里是灰色地带<a linkedidchapter="slide1-chapter5" class="main-nav-link hyperlink"><sup>32</sup></a>. ****</p>
+                            <p>The minimum detection amount of P7-E8 for HMA was 0.05 g/L and the detection saturation amount was about 2 g/L. The minimum detection amount of P5-B7 for HMA was 0.08 g/L, which was much lower than that of P7-E8, while the maximum induction amount was 3.5 g/L. In addition, P7-E8 showed a higher sensitivity for HMA in the detection range of 0.05 g/L. Thus, it could be seen that P7-E8 was more sensitive to HMA and detected a wider concentration range compared to P7-E8. (Figure 9)</p>
+                            <div class="figure-container ">
+                                <div class="figure-wrapper">
+                                    <div class="figure-container width50">
+                                        <img src="../../resources/Results/figure10(1).png" alt="">
+                                    </div>
+                                    <div class="figure-container width50">
+                                        <img src="../../resources/Results/figure10(2).png" alt="">
+                                    </div>
+                                </div>
+                                <p><strong>Figure 10.</strong>Fluorescence changes of the P5-B7 and P7-E8 to the treatments of different aromatic compounds with structural similarity to HMA.</p>
+                            </div>
+                            <p>To assess their specificity for binding different aromatic compounds, we cultured <i>E. coli</i> carrying P5-B7 and P7-E8 plasmids in LB medium supplemented with other HMA analogues of aromatic molecules. After 12 h of incubation, we observed that they were both stably activated by 4HB and HMA. Compared with the control group, p5-B7 and P7-E8 mutants showed more than 2.7 and 1.7 times induction at 1g/L HMA, respectively. HPP also triggered eGFP expression in both mutants. In addition, P7-E8 can also respond to PPA. To our knowledge, no ATF had been reported in response to PPA and HPP, so the P7-E8 clone could also be used for the directed evolution of other aromatic amino acids and their derivatives. On the whole, the ligand specificity of these two selected PobR mutants was relatively low compared to PobR<sup>WT</sup>. (Figure 10)</p>
+                            <div class="figure-container auto-margin">
+                                <img src="../../resources/Results/figure11.png" alt="">
+                                <p><strong>Figure11.</strong>Three amino acid substitutions in F5-B7 (E16V, E124G, and H125R) and two amino acid substitutions in F7-E8 (L122P, E126V).</p>
+                            </div>
+                            <p>By comparing DNA sequences, we determined that there are three amino acid substitutions in F5-B7 (E16V, E124G, and H125R) and two amino acid substitutions in F7-E8 (L122P, E126V). Four of these five mutations are between residues 122 and 126 in the PobR protein, so we predict that residues from 122 to 126 in the PobR protein may be involved in ligand binding specificity.</p>
+                            <p>Previous studies had shown that amino acids 118-135 of PobR constituted a conserved region and therefore alterations in this region reduced the dependence of PobR on 4HB, allowing it to bind other effector molecules. Single amino acid substitutions of E124 and E126 had also been found in P5-B7 and P7-E8 mutants, which could produce quinone acid or protocatechuic acid responsive, respectively PobR mutants.</p>
+                            <h3>Evaluation of the function of the identified amino acid mutations in PobR</h3>
+                            <p>To determine the effect of single amino acids in mutant residues of P5-B7 and P7-E8 on ligand selection, we mutated five single amino acid mutants of PobR, E16V, E124G, H125R, L122P, and E126V, using the site-directed mutagenesis method <a linkedidchapter="r9" class="main-nav-link hyperlink"><sup>[9]</sup></a> and tested them using the reporter system described previously. When induced using HMA, only E126V showed a slight induction effect among the five mutants, while the others showed no induction or even reduced induction. When induced using 4HB, all five mutants were able to respond, with E126V showing a better response than the others. Notably, all five single amino acid mutants showed a reduced response to HMA compared to P5-B7 and P7-E8, while the induction of 4HB was also reduced compared to P5-B7. It can be seen that the synergistic effect of these five amino acids rather than single amino acid mutations can alter or extend the ligand binding capacity of the PobR protein to enable it to respond to HMA induction. (Figure 12)</p>
+                            <div class="figure-container auto-margin">
+                                <img src="../../resources/Results/figure12.png" alt="">
+                                <p><strong>Figure12.</strong>Fluorescence changes of the five PobR mutants with single amino acid alterations in comparison with the PobR<sup>WT</sup> and two multi-site mutants (P5-B7 and P7-E8) when treated by 4HB (0.1 g/L) and HMA (1 g/L).</p>
+                            </div>
+                            <h3>Modeling and docking</h3>
+                            <p>To more visualize the effect of amino acid substitutions on the PobR protein response and the interaction between small molecule ligands and the protein, we used AlphaFold2 to simulate the protein structure of the PobR mutant and Autodock Vina to simulate the docking of 4HB and HMA to the protein. The results of the docking were visualized by LigPlus <a linkedidchapter="r10" class="main-nav-link hyperlink"><sup>[10]</sup></a>.</p>
+                            <p>In docking 4HB with PobR<sup>WT</sup>, we chosed a conformation with a binding energy of -6.0 kcal/mol for the analysis. This was the second best binding conformation of the protein to 4HB and was chosen because although the first best conformation showed the lowest binding energy (-6.2 kcal/mol), this conformation showed the most consistent ligand binding pose with the previously reported conformation <a linkedidchapter="r11" class="main-nav-link hyperlink"><sup>[11]</sup></a>. In this conformation, the carboxyl group of 4HB forms hydrogen bonded with S160, T161 and N239, and the aromatic ring created hydrophobic interactions with T159, M148, H216, L220 and A222. (Figure 13A)</p>
+                            <div class="figure-container ">
+                                <div class="figure-wrapper">
+                                    <div class="figure-container width30">
+                                        <img src="../../resources/Results/figure13(1).png" alt="">
+                                    </div>
+                                    <div class="figure-container width75">
+                                        <img src="../../resources/Results/figure13(2).png" alt="">
+                                    </div>
+                                </div>
+                                <p><strong>Figure 13.</strong>Predicted 4HB docking to the PobR protein. (A) Ribbon structure representation of the PobR<sup>WT</sup> protein predicted by Autodock Vina is shown at left. (B) The enlarged docking site of 4HB (Lightmagenta) is shown at right with exhibition of key amino acid residues.</p>
+                                <p>As could be seen from the spatial structure, the amino acids corresponding to the mutation sites of P5-B7 (E16V, E124G, H125R) and P7-E8 (L122P, E126V) were located near the proposed effector binding sites. However, the effects of these sites on ligand-receptor binding were not identified by LigPlus. (Figure 13B)</p>
+                                It had been previously reported that substitutions of residues not directly contacting with the ligand may affect the overall response specificity of the protein <a linkedidchapter="r12" class="main-nav-link hyperlink"><sup>[12]</sup></a>, and it was possible that mutations in residues 122,124,125 and 126 could affect critical sites in the binding pocket and thus indirectly altered the responsiveness of PobR to the ligand.
                             </div>
                         </div>
                         <div id="slide1-chapter5">
                             <h2>Evolution</h2>
-                            <p>*****</p>
+                            <h3>Overview</h3>
+                            <p>In this section, we transferred the directionally evolved HMA biosensor into <i>E. coli</i> along with the HMA synthesis plasmid and the plasmid with enhanced replication mutation, and used chloramphenicol pressure to directionally evolve the HMA synthesis plasmid, expecting to further improve the HMA production. We used directed evolution for optimization of HMA yield. P5-B7 was selected as the HMA sensor and chloramphenicol resistance genes were used as selection markers.</p>
+                            <h3>HMA-Responsive Sensor-Driven adaptive laboratory evolution (ALE)</h3>
+                            <div class="figure-container auto-margin">
+                                <img src="../../resources/Results/figure14.png" alt="">
+                                <p><strong>Figure14.</strong>A schematic diagram of the ALE performed in this study.</p>
+                            </div>
+                            <p> To establish ALE, we coupled the HMA biosensor P5-B7 with HMA synthase, 3-deoxy-7-phosphogentanoate synthase (aroG from <i>E. coli</i>) andprephenate dehydratase (pheA from <i>E. coli</i>) to construct an HMA biosynthesis module in BL21. Six genes for scrambled proofreading, base selection and mismatch repair were also co-expressed <a linkedidchapter="r13" class="main-nav-link hyperlink"><sup>[13]</sup></a> in order to enhance the mutation of host genome replication. We named the strain carrying these three plasmids as HMA-0 (Figure 14). This strain expressed chloramphenicol resistance only in the presence of HMA.</p>
+                            <div class="figure-container auto-margin">
+                                <img src="../../resources/Results/figure15.png" alt="">
+                                <p><strong>Figure15.</strong>Growth profile during the adaptive evolution.</p>
+                            </div>
+                            <p>We used 50 µg/mL chloramphenicol as the initial selection pressure as the growth of HMA-0’ was greatly inhibited at this concentration. After 8 rounds of passaging culture (230 h), the mutagenized strain was able to grow on 80 µg/mL chloramphenicol. (Figure 15)</p>
+                            <div class="figure-container ">
+                                <div class="figure-wrapper">
+                                    <div class="figure-container width50">
+                                        <img src="../../resources/Results/figure16(1).png" alt="">
+                                    </div>
+                                    <div class="figure-container width50">
+                                        <img src="../../resources/Results/figure16(2).png" alt="">
+                                    </div>
+                                </div>
+                                <p><strong>Figure 16.</strong>HMA sensor-driven ALE. (A) HMA production of candidate ALE strains in small-scale liquid culture. (B) eGFP expression Level of HMA strain before and after ALE.</p>
+                            </div>
+                            <p>In addition, we measured the HMA production of the evolved strains using HPLC. Strain HMA-C75-1 was able to 8.4 mh/L HMA, which was 4.5 times higher than HMA-0 (Figure 16A). A comparison of eGFP expression between HMA-0 and HMA-C80-1 could be seen in Figure 16B, indicating a clear activation of our HMA biosensor. </p>
                         </div>
                         <div class="references" id="slide1-chapter6">
                             <h2>References</h2>
                             <p>
                             <ol>
-                                <li>Gwon DA, Seok JY, Jung GY and Lee JW. Biosensor-Assisted Adaptive Laboratory Evolution for Violacein Production. Int J Mol Sci, 2021, 22:6594.</li>
+                                <li id="r1-4">Gwon DA, Seok JY, Jung GY and Lee JW. Biosensor-Assisted Adaptive Laboratory Evolution for Violacein Production. Int J Mol Sci, 2021, 22:6594.</li>
                                 <li>Kasey CM, Zerrad M, Li Y, Cropp TA and Williams GJ. Development of Transcription Factor-Based Designer Macrolide Biosensors for Metabolic Engineering and Synthetic Biology. ACS Synth Biol, 2018, 7:227-239.</li>
                                 <li>Cheng F, Tang XL and Kardashliev T. Transcription Factor-Based Biosensors in High-Throughput Screening: Advances and Applications. Biotechnol J, 2018, 13:e1700648.</li>
                                 <li>Liang C, Zhang X, Wu J, Mu S, Wu Z, Jin JM and Tang SY. Dynamic control of toxic natural product biosynthesis by an artificial regulatory circuit. Metab Eng, 2020, 57:239-246.</li>
-                                <li>Molina-Henares AJ, Krell T, Guazzaroni ME, Segura A and Ramos JL. Members of the IclR family of bacterial transcriptional regulators function as activators and/or repressors. Fems Microbiology Reviews, 2006, 30:157-186.</li>
-                                <li>Miyazaki K and Takenouchi M. Creating random mutagenesis libraries using megaprimer PCR of whole plasmid. Biotechniques, 2002, 33:1033-1034, 1036-1038.</li>
-                                <li>Machado LFM, Currin A and Dixon N. Directed evolution of the PcaV allosteric transcription factor to generate a biosensor for aromatic aldehydes. J Biol Eng, 2019, 13:91.</li>
-                                <li>Raman S, Taylor N, Genuth N, Fields S and Church GM. Engineering allostery. Trends Genet, 2014, 30:521-528.</li>
-                                <li>Ogawa Y, Katsuyama Y, Ueno K and Ohnishi Y. Switching the Ligand Specificity of the Biosensor XylS from meta to para-Toluic Acid through Directed Evolution Exploiting a Dual Selection System. ACS Synth Biol, 2019, 8:2679-2689.</li>
-                                <li>Laskowski RA and Swindells MB. LigPlot+: multiple ligand-protein interaction diagrams for drug discovery. J Chem Inf Model, 2011, 51:2778-2786.</li>
-                                <li>Jha RK, Kern TL, Kim Y, Tesar C, Jedrzejczak R, Joachimiak A and Strauss CE. A microbial sensor for organophosphate hydrolysis exploiting an engineered specificity switch in a transcription factor. Nucleic Acids Res, 2016, 44:8490-8500.</li>
-                                <li>Scholz O, Köstner M, Reich M, Gastiger S and Hillen W. Teaching TetR to recognize a new inducer. J Mol Biol, 2003, 329:217-227.</li>
-                                <li>Badran, A.H. and D.R. Liu. Development of potent in vivo mutagenesis plasmids with broad mutational spectra. Nat Commun, 2015. 6: p. 8425.</li>
-
-
+                                <li id="r5">Molina-Henares AJ, Krell T, Guazzaroni ME, Segura A and Ramos JL. Members of the IclR family of bacterial transcriptional regulators function as activators and/or repressors. Fems Microbiology Reviews, 2006, 30:157-186.</li>
+                                <li id="r6">Miyazaki K and Takenouchi M. Creating random mutagenesis libraries using megaprimer PCR of whole plasmid. Biotechniques, 2002, 33:1033-1034, 1036-1038.</li>
+                                <li id="r7">Machado LFM, Currin A and Dixon N. Directed evolution of the PcaV allosteric transcription factor to generate a biosensor for aromatic aldehydes. J Biol Eng, 2019, 13:91.</li>
+                                <li id="r8">Raman S, Taylor N, Genuth N, Fields S and Church GM. Engineering allostery. Trends Genet, 2014, 30:521-528.</li>
+                                <li id="r9">Ogawa Y, Katsuyama Y, Ueno K and Ohnishi Y. Switching the Ligand Specificity of the Biosensor XylS from meta to para-Toluic Acid through Directed Evolution Exploiting a Dual Selection System. ACS Synth Biol, 2019, 8:2679-2689.</li>
+                                <li id="r10">Laskowski RA and Swindells MB. LigPlot+: multiple ligand-protein interaction diagrams for drug discovery. J Chem Inf Model, 2011, 51:2778-2786.</li>
+                                <li id="r11">Jha RK, Kern TL, Kim Y, Tesar C, Jedrzejczak R, Joachimiak A and Strauss CE. A microbial sensor for organophosphate hydrolysis exploiting an engineered specificity switch in a transcription factor. Nucleic Acids Res, 2016, 44:8490-8500.</li>
+                                <li id="r12">Scholz O, Köstner M, Reich M, Gastiger S and Hillen W. Teaching TetR to recognize a new inducer. J Mol Biol, 2003, 329:217-227.</li>
+                                <li id="r13">Badran, A.H. and D.R. Liu. Development of potent in vivo mutagenesis plasmids with broad mutational spectra. Nat Commun, 2015. 6: p. 8425.</li>
                             </ol>
                             </p>
                         </div>
@@ -328,8 +412,8 @@
     </div>
 </div>
 <a href="#" id="mobile-to-top-arrow" class="to-top">
-    <p style="font-size: 10px;text-align: center">Top of</p>
-    <p style="font-size: 10px;text-align: center">the page</p>
+<!--    <p style="font-size: 10px;text-align: center">Top of</p>-->
+<!--    <p style="font-size: 10px;text-align: center">the page</p>-->
     <img style="max-height: 70px" src="../../resources/to_top.png">
 </a>
 <!---------- FOOTER ------------>

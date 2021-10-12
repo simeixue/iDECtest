@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1db84339-bca1-437c-8696-1721e9bfef9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/resources/Results/figure15.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Safety/figure1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/page/DOCUMENTATION/Safety.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/DOCUMENTATION/Safety.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/page/PROJECT/Design.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/PROJECT/Design.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/page/PROJECT/Description.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/PROJECT/Description.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/page/PROJECT/Results.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/PROJECT/Results.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/page/TEAM/Attributions.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/TEAM/Attributions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/resources/Results/fgure15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/resources/Results/figure5.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/Results/figure5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/Results/figure15.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/Results/figure15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/Results/figure7.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/Results/figure7.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

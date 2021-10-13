@@ -5,24 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iDEC NEFU_China 2021</title>
     <link rel="stylesheet" type="text/css" href="../../CSS/main_cssstyle.css">
-<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.7/jquery.fullPage.css">-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.7/vendors/jquery.easings.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.7/jquery.fullPage.js"></script>
     <style>
-        .p_notes{
-            text-indent: 2em;
-            font-size: 1.5rem;
-            line-height: 1.5;
-            font-weight: normal;
-        }
     </style>
 </head>
 <body>
-
+<!--加载动画-->
+<div class="loader-wrapper">
+    <span class="loader"><img src="../../resources/Loading.gif" alt="Our animated logo is keeping you company until the page has loaded.">
+    </span>
+</div>
 
 <a class="skip-main" href="#slide1-chapter1">Skip to main content</a>
-<header style="min-height: 100px;background: none">
+<header>
     <nav id="normal-nav"> <!---- 常规导航栏Navigation bar (normal) -->
         <div class="logo">
             <img style="max-height: 400px" id="nav-logo" src="../../resources/HMAlogo.png" alt="This is our logo, but if you click it, you will return home">
@@ -164,78 +158,176 @@
             </ul>
         </div>
     </nav>
+    <!------------ 页面标题PAGE TITLE -------------------->
+    <div class="page-title">
+        <div class="page-title-content">
+            <h1>Description</h1><!---Page title -->
+        </div>
+    </div>
 </header>
-
-<div style="display:none" id="marker" class= "triangle-down"> </div>
-<!------------------ BUTTONS ---------------------------->
-<div class="buttons"></div>
-
-<div id="fullpage" class="main-body">
-    <div class="section" style="padding: 0 40px">
-        <h2>Background</h2>
-        <div class="figure-wrapper">
-            <div class="figure-container width30">
-                <img src="../../resources/Description/figure1.png" alt="">
-            </div>
-            <div class="width60-no-margin-text">
-                <h1>What is a HMA?</h1>
-                <p class="p_notes">Hydroxy-mandelic acid (HMA) is widely used in the production of aromatic drugs and spices<a linkedidchapter="r1" class="main-nav-link hyperlink"><sup>[1]</sup></a>. It can be used to prepare selectiveβ1-receptor antagonist atenolol and synthetic precursors of several non-ribosomal antibiotics<a linkedidchapter="r2" class="main-nav-link hyperlink"><sup>[2]</sup></a>.Moreover, p-hydroxymandelic acid shows promising applications in targeted drug delivery systems. But its market price is as high as $14,000 per kilogram, and its chemical synthesis methods have adverse environmental effects. Its biological methods have received a lot of attention recently.</p>
-            </div>
+<div class="grid-normal">
+    <!--------------Introduction/Summary--------------------->
+    <div class="introduction grid-normal">
+        <div class="introduction-content">
+            <p>
+                简介内容
+            </p>
         </div>
-    </div>
-    <div class="section" style="padding: 0 40px">
-        <div class="figure-wrapper">
-            <div class="width60-no-margin-text">
-                <h1>The synthesis of HMA</h1>
-                <p class="p_notes">As industries are evolving toward sustainable and environmental-friendly, microbial synthesis of these compounds attracted increasing attention<a linkedidchapter="r3" class="main-nav-link hyperlink"><sup>[3]</sup></a>. Microbial metabolism has been harnessed to provide us access to natural products that are needed for the survival and reproduction of the host organisms, leading to the challenge in achieving high yields of desired products. In recent years, the iterative “design-build-test-learn” cycle of the synthetic biology has enabled rapid design and generation of highly diverse libraries. However, screening for desirable variants remains a critical bottleneck, underlining the need for high-throughput approaches to easily identify candidate phenotypes<a linkedidchapter="r4" class="main-nav-link hyperlink"><sup>[4]</sup></a>.</p>
-            </div>
-            <div class="figure-container width30">
-                <img src="../../resources/Description/figure2.png" alt="">
-            </div>
-        </div>
-    </div>
-    <div class="section" style="padding: 0 40px">
-        <h2>Inspiration</h2>
-        <div class="figure-wrapper">
-            <div class="figure-container width30">
-                <img src="../../resources/Description/figure3.png" alt="">
-            </div>
-            <div class="width60-no-margin-text">
-                <p class="p_notes">In recent years, the development of directed evolution has broadened the design scope of protein engineering, which can modify proteins without knowing the structural information and mechanism of action of target proteins. We boldly attempted directed evolution of strains, reasonably designed and altered metabolic pathways to obtain our target strains.</p>
-                <p class="p_notes">With the popularity of AlphaFold 2 this year, we wondered if we could use protein structure prediction to better understand how individual amino acid site changes would affect the PobR protein pocket. So we tried to use bioinformatics methods to do molecular docking.</p>
-            </div>
-        </div>
-    </div>
-    <div class="section" style="padding: 0 40px">
-        <h2>Inspiration</h2>
-        <p class="p_notes">In recent years, the development of directed evolution has broadened the design scope of protein engineering, which can modify proteins without knowing the structural information and mechanism of action of target proteins. We boldly attempted directed evolution of strains, reasonably designed and altered metabolic pathways to obtain our target strains.</p>
-        <p class="p_notes">With the popularity of AlphaFold 2 this year, we wondered if we could use protein structure prediction to better understand how individual amino acid site changes would affect the PobR protein pocket. So we tried to use bioinformatics methods to do molecular docking.</p>
-    </div>
-    <div class="section" style="padding: 0 40px">
-        <h2>Approaches</h2>
-        <p class="p_notes">In this study, we aimed to develop an allosteric transcription factors (aTFs) based biosensor for HMA. There is no aTF that responds to HMA in nature,  However, HMA has high structural similarity to 4HB in both core structure (a hydroxyphenyl) and side chains. PobR, an aTF for HMA analog 4-hydroxybenzoic acid, was used to alter its selectivity and create novel aTFs responsive to HMA by directed evolution.</p>
-        <p class="p_notes">We developed a library through random mutagenesis of PobR using error-prone PCR amplifications. Then we used high-throughput methods to screen out clones that respond to HMA, so we could used the HMA-responsive aTF improve the yield of HMA through directed evolution.</p>
-    </div>
-    <div class="section references" style="padding: 0 40px">
-        <ol>
-            <li id="r1">Reifenrath M and Boles E. Engineering of hydroxymandelate synthases and the aromatic amino acid pathway enables de novo biosynthesis of mandelic and 4-hydroxymandelic acid with Saccharomyces cerevisiae. Metab Eng, 2018, 45:246-254.</li>
-            <li id="r2">Hubbard BK, Thomas MG and Walsh CT. Biosynthesis of L-p-hydroxyphenylglycine, a non-proteinogenic amino acid constituent of peptide antibiotics. Chem Biol, 2000, 7:931-942.</li>
-            <li id="r3">Mitchler, M. M., Garcia, J. M., Montero, N. E., & Williams, G. J. . Transcription factor-based biosensors: a molecular-guided approach for natural product engineering. Curr Opin Biotechnol,2021,69:172-181. </li>
-            <li id="r4">Cheng, F., Tang, X. L., & Kardashliev, T. Transcription Factor-Based Biosensors in High-Throughput Screening: Advances and Applications. Biotechnology Journal, 2018,13:7.</li>
-            <li id="r5">Miyazaki K and Takenouchi M. Creating random mutagenesis libraries using megaprimer PCR of whole plasmid. Biotechniques, 2002, 33:1033-1034, 1036-1038.</li>
-        </ol>
     </div>
 </div>
+<div style="display:none" id="marker" class= "triangle-down"> </div>
+<!------------------ BUTTONS ---------------------------->
+<div class="buttons">
+</div>
+<div class="sections-container">
+    <aside class="sticky">
+        <div id="sub-nav"class="sub-navigation-content">
+            <div class="sub-navigation-chapter cool-link2">
+                <a class= "main-nav-link" linkedidchapter="slide1-chapter1">Background</a><!------Chapter one -->
+            </div>
+            <div class="sub-navigation-chapter cool-link2">
+                <a class= "main-nav-link" linkedidchapter="slide1-chapter2">Inspiration</a><!------Chapter Two -->
+            </div>
+            <div class="sub-navigation-chapter cool-link2">
+                <a class= "main-nav-link" linkedidchapter="slide1-chapter3">Approaches</a><!------Chapter Three -->
+            </div>
+            <div class="sub-navigation-chapter cool-link2">
+                <a class= "main-nav-link" linkedidchapter="slide1-chapter4">References</a><!------Chapter Three -->
+            </div>
+            <!--            返回顶部箭头-->
+            <div  id="to-top-arrow">
+                <a title="Back to top"href="#"><i class="fas fa-chevron-circle-up"></i></a><!------Chapter Three -->
+            </div>
+        </div>
+    </aside>
+    <div class="carousel">
+        <div class="slider">
+            <!------------------------------ section 1------------------------------------>
+            <section class="slide-sections">
+                <div class="main-body">
+                    <div class="main-body-content">
+                        <div id="slide1-chapter1">
+                            <h2>Background</h2>
+                            <div class="figure-wrapper">
+                                <div class="figure-container width30">
+                                    <img src="../../resources/Description/figure1.png" alt="">
+                                </div>
+                                <div class="width60-no-margin-text">
+                                    <h1>What is a HMA?</h1>
+                                    <p>Hydroxy-mandelic acid (HMA) is widely used in the production of aromatic drugs and spices<a linkedidchapter="r1" class="main-nav-link hyperlink"><sup>[1]</sup></a>. It can be used to prepare selectiveβ1-receptor antagonist atenolol and synthetic precursors of several non-ribosomal antibiotics<a linkedidchapter="r2" class="main-nav-link hyperlink"><sup>[2]</sup></a>.Moreover, p-hydroxymandelic acid shows promising applications in targeted drug delivery systems. But its market price is as high as $14,000 per kilogram, and its chemical synthesis methods have adverse environmental effects. Its biological methods have received a lot of attention recently.</p>
+                                </div>
+                            </div>
+                            <div class="figure-wrapper">
+                                <div class="width60-no-margin-text">
+                                    <h1>The synthesis of HMA</h1>
+                                    <p>As industries are evolving toward sustainable and environmental-friendly, microbial synthesis of these compounds attracted increasing attention<a linkedidchapter="r3" class="main-nav-link hyperlink"><sup>[3]</sup></a>. Microbial metabolism has been harnessed to provide us access to natural products that are needed for the survival and reproduction of the host organisms, leading to the challenge in achieving high yields of desired products. In recent years, the iterative “design-build-test-learn” cycle of the synthetic biology has enabled rapid design and generation of highly diverse libraries. However, screening for desirable variants remains a critical bottleneck, underlining the need for high-throughput approaches to easily identify candidate phenotypes<a linkedidchapter="r4" class="main-nav-link hyperlink"><sup>[4]</sup></a>.</p>
+                                </div>
+                                <div class="figure-container width30">
+                                    <img src="../../resources/Description/figure2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="slide1-chapter2">
+                            <h2>Inspiration</h2>
+                            <div class="figure-wrapper">
+                                <div class="figure-container width30">
+                                    <img src="../../resources/Description/figure3.png" alt="">
+                                </div>
+                                <div class="width60-no-margin-text">
+                                    <p>In recent years, the development of directed evolution has broadened the design scope of protein engineering, which can modify proteins without knowing the structural information and mechanism of action of target proteins. We boldly attempted directed evolution of strains, reasonably designed and altered metabolic pathways to obtain our target strains.</p>
+                                    <p>With the popularity of AlphaFold 2 this year, we wondered if we could use protein structure prediction to better understand how individual amino acid site changes would affect the PobR protein pocket. So we tried to use bioinformatics methods to do molecular docking.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="slide1-chapter3">
+                            <h2>Approaches</h2>
+                            <p>In this study, we aimed to develop an allosteric transcription factors (aTFs) based biosensor for HMA. There is no aTF that responds to HMA in nature,  However, HMA has high structural similarity to 4HB in both core structure (a hydroxyphenyl) and side chains. PobR, an aTF for HMA analog 4-hydroxybenzoic acid, was used to alter its selectivity and create novel aTFs responsive to HMA by directed evolution.</p>
+                            <p>We developed a library through random mutagenesis of PobR using error-prone PCR amplifications. Then we used high-throughput methods to screen out clones that respond to HMA, so we could used the HMA-responsive aTF improve the yield of HMA through directed evolution.</p>
+                            <h1>Our Procedure</h1>
+                            <div class="figure-container auto-margin">
+                                <img src="../../resources/temp.jpg" alt="">
+                                <p><strong>Figure1.</strong>这里用来插入一个流程图</p>
+                            </div>
 
+                        </div>
+                        <div class="references" id="slide1-chapter4">
+                            <h2>References</h2>
+                            <ol>
+                                <li id="r1">Reifenrath M and Boles E. Engineering of hydroxymandelate synthases and the aromatic amino acid pathway enables de novo biosynthesis of mandelic and 4-hydroxymandelic acid with Saccharomyces cerevisiae. Metab Eng, 2018, 45:246-254.</li>
+                                <li id="r2">Hubbard BK, Thomas MG and Walsh CT. Biosynthesis of L-p-hydroxyphenylglycine, a non-proteinogenic amino acid constituent of peptide antibiotics. Chem Biol, 2000, 7:931-942.</li>
+                                <li id="r3">Mitchler, M. M., Garcia, J. M., Montero, N. E., & Williams, G. J. . Transcription factor-based biosensors: a molecular-guided approach for natural product engineering. Curr Opin Biotechnol,2021,69:172-181. </li>
+                                <li id="r4">Cheng, F., Tang, X. L., & Kardashliev, T. Transcription Factor-Based Biosensors in High-Throughput Screening: Advances and Applications. Biotechnology Journal, 2018,13:7.</li>
+                                <li id="r5">Miyazaki K and Takenouchi M. Creating random mutagenesis libraries using megaprimer PCR of whole plasmid. Biotechniques, 2002, 33:1033-1034, 1036-1038.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
 <a href="#" id="mobile-to-top-arrow" class="to-top">
-    <p style="font-size: 10px;text-align: center">Top of</p>
-    <p style="font-size: 10px;text-align: center">the page</p>
+    <p style="font-size: 10px;text-align: center;">Top of</p>
+    <p style="font-size: 10px;text-align: center;">the page</p>
     <img style="max-height: 70px" src="../../resources/to_top.png">
 </a>
 <!---------- FOOTER ------------>
+<footer id="footer">
+    <div class="contact-info">
+        <div class="contact-info-content">
+            <!--- About Us-->
+            <div class="box">
+                <h3>
+                    About Us
+                </h3>
+                <p>
+                    We are the 2021 team of iDEC NEFU_China!
+                </p>
+            </div>
+            <!---- Follow Us -->
+            <div class="box">
+                <h3>
+                    Follow Us
+                </h3>
+                <div class="social-media-icons">
+                    <a target="_blank" href="https://www.facebook.com/igemleiden/"> <i class="fab fa-facebook-square"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/igem-leiden/?originalSubdomain=nl"> <i class="fab fa-linkedin"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/igemleiden/?hl=nl"> <i class="fab fa-instagram-square"></i> </a>
+                    <a target="_blank" href="https://twitter.com/igem_leiden"> <i class="fab fa-twitter-square"></i></a>
+                    <a target="_blank" href="https://www.youtube.com/channel/UCfEzpiBJ3NTQRGyslWHxzAg/featured"> <i class="fab fa-youtube-square"></i></a>
+                </div>
+            </div>
+            <!---- Contact Us-->
+            <div class="box">
+                <h3>
+                    Contact Us
+                </h3>
+                <p>
+                    iDEC Team NEFU_China <br>
+                    <a>idec_nefu2021@163.com</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="sponsors" >
+        <div class="main-sponsors">
+            <div style="width:30%" class="image-main-sponsor">
+                <a  target="_blank" href="https://itility.nl/"> <img src="https://2020.igem.org/wiki/images/d/de/T--Leiden--Itility-logo-color.png" alt="Itility"> </a>
+            </div>
+            <div  style="width:15%" class="image-main-sponsor">
+                <a  target="_blank" href="https://www.medicaldelta.nl/"><img src="https://2020.igem.org/wiki/images/d/d5/T--Leiden--medical_delta_logo.png" alt="Medical delta"> </a>
+            </div>
+            <div style="width:9%" class="image-main-sponsor">
+                <a target="_blank" href="https://www.idegroup.com.au/"><img src="https://2020.igem.org/wiki/images/9/99/T--Leiden--IDE_Logo.png" alt="IDE"></a>
+            </div>
+            <div  class="image-main-sponsor">
+                <a target="_blank" href="https://www.chdr.nl/"><img src="https://2020.igem.org/wiki/images/9/9e/T--Leiden--CHDR_Logo.png" alt="CHDR"></a>
+            </div>
+        </div>
+    </div>
+</footer>
 
-
-<!--<script src= "../../JS/jQuery.js" type =text/javascript></script>-->
+<script src= "../../JS/jQuery.js" type =text/javascript></script>
 <script src="../../JS/detect.js" type= "text/javascript"></script>
 <script src="../../JS/main_javascript.js" type =text/javascript></script>
 <script src="../../JS/MoveContent.js" type= "text/javascript"></script>
@@ -245,10 +337,6 @@
     document.addEventListener("DOMContentLoaded", function(event) {
         MoveContentOutside();
     });
-    $(document).ready(function(){
-        $('#fullpage').fullpage();
-    })
 </script>
-
 </body>
 </html>

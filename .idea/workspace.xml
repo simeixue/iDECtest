@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1db84339-bca1-437c-8696-1721e9bfef9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/resources/Experiments/strains-plasmids-and-primers.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/page/PROJECT/eeee.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Design/figure1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Design/figure2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Design/figure3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Design/figure4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Design/figure5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/Design/figure6.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/page/DOCUMENTATION/Experiments.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/DOCUMENTATION/Experiments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/page/PROJECT/Description.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/PROJECT/Description.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

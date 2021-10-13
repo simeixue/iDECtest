@@ -1633,10 +1633,13 @@ position: relative;
 transition: all 0s;
 scroll-margin-top: 79px;
 max-width: 1000px;
+  transition: transform 0.5s;
 /*padding-top: 1em;*/
 
 }
-
+.popout:hover{
+  transform:scale(1.1,1.1);
+}
 .collapsible {
   display: block;
   font-size: 2em;
@@ -1644,6 +1647,7 @@ max-width: 1000px;
   position: relative;
   color: #ffffff;
   cursor: pointer;
+  border-bottom: 1px solid white;
 }
 
 
@@ -1655,11 +1659,11 @@ max-width: 1000px;
   content: '';
   bottom: 0;
   left: 0;
-  height: 5px;
+  height: 5px;/*悬浮之前橙色高度*/
   width: 95%;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
-  background: #FE9901;
+  /*background: #FE9901;*/
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -1669,7 +1673,8 @@ max-width: 1000px;
 
 
 .collapsible:hover::before{
-  height: 25px;
+  height: 25px;/*悬浮之后橙色高度*/
+  /*left: 25px;*/
 }
 
 .collapsible {
@@ -1706,8 +1711,8 @@ max-width: 1000px;
   top: 0;
   left: 0;
   height: 100%;
-  background-color: #212832;
-  border-radius: 3px;
+  background-color: #8BBED5;
+  border-radius: 30px;
   width: 95%;
   z-index: -1;
 }

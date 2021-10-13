@@ -147,7 +147,7 @@ function onCollapsibleClick (event) {
         content.style.boxShadow = '0'
     } else {
         content.style.maxHeight = content.scrollHeight + 'px'
-        content.style.boxShadow = 'inset 0 0 0 3px #e5e5e5'
+        // content.style.boxShadow = 'inset 0 0 0 3px #e5e5e5'
     }
 };
 

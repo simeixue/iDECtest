@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1db84339-bca1-437c-8696-1721e9bfef9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/page/全屏.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/resources/Description/figure1.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/resources/Description/figure2.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/resources/Description/figure3.png" afterDir="false" />

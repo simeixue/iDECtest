@@ -1380,6 +1380,7 @@ a.main-nav-link.active {
 .references li{
   text-align: left;
   font-size: 0.9em;
+  font-weight: normal;
 }
 
 .main-body ul, .main-body ol {
@@ -1517,7 +1518,8 @@ a.main-nav-link.active {
 }
 
 .width60, .width60-no-margin-text {
-  width: 60%
+  width: 60%;
+  font-weight: normal;
 }
 
 .width60-margin,  .width60-2{
@@ -2816,6 +2818,7 @@ a:hover.prize-hyperlink {
 
 .width50-no-margin-text, .width50-text, .width40-text, .width40-no-margin-text, .width30-text, .width60-no-margin-text, .width45-no-margin-text, .width75 {
   width:100%;
+  font-weight: normal;
 }
 
 #figure4, #figure5, #ed-figure4, .width40, .width40-no-margin, .width50, .width50-no-margin, .width30, .width20, .width35,  .width60, .width60-margin, .width45-no-margin   {

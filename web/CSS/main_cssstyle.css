@@ -1626,14 +1626,14 @@ table.model tr:nth-child(even) {
 /*********** POP-OUTS ********************/
 .popout{
 width: 100%;
-margin: 1.5em auto;
+margin: 0em auto;
 position: relative;
 -webkit-transition: all 0s;
 -o-transition: all 0s;
 transition: all 0s;
 scroll-margin-top: 79px;
 max-width: 1000px;
-padding-top: 1em;
+/*padding-top: 1em;*/
 
 }
 
@@ -1674,6 +1674,7 @@ padding-top: 1em;
 
 .collapsible {
   outline : none !important;
+  text-align: center;
 }
 
 .collapsible-content {

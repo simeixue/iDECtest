@@ -12,7 +12,6 @@
     <span class="loader"><img src="../../resources/Loading.gif" alt="Our animated logo is keeping you company until the page has loaded.">
     </span>
 </div>
-
 <a class="skip-main" href="#slide1-chapter1">Skip to main content</a>
 <header>
     <nav id="normal-nav"> <!---- 常规导航栏Navigation bar (normal) -->
@@ -176,124 +175,408 @@
 <div style="display:none" id="marker" class= "triangle-down"> </div>
 <!------------------ BUTTONS ---------------------------->
 <div class="buttons">
+    <div class="button-name">
+    </div>
 </div>
 <div class="sections-container">
-    <aside class="sticky">
-        <div id="sub-nav"class="sub-navigation-content">
-            <div class="sub-navigation-chapter cool-link2">
-                <a class= "main-nav-link" linkedidchapter="slide1-chapter1">小标题1</a><!------Chapter one -->
-            </div>
-            <div class="sub-navigation-chapter cool-link2">
-                <a class= "main-nav-link" linkedidchapter="slide1-chapter2">小标题2</a><!------Chapter Two -->
-            </div>
-            <div class="sub-navigation-chapter cool-link2">
-                <a class= "main-nav-link" linkedidchapter="slide1-chapter3">小标题3</a><!------Chapter Three -->
-            </div>
-            <div class="sub-navigation-chapter cool-link2">
-                <a class= "main-nav-link" linkedidchapter="slide1-chapter4">小标题4</a><!------Chapter Three -->
-            </div>
-            <div class="sub-navigation-chapter cool-link2">
-                <a class= "main-nav-link" linkedidchapter="slide1-chapter5">参考文献</a><!------Chapter Three -->
-            </div>
-            <!--            返回顶部箭头-->
-            <div  id="to-top-arrow">
-                <a title="Back to top"href="#"><i class="fas fa-chevron-circle-up"></i></a><!------Chapter Three -->
-            </div>
-        </div>
-    </aside>
     <div class="carousel">
         <div class="slider">
             <!------------------------------ section 1------------------------------------>
             <section class="slide-sections">
                 <div class="main-body">
                     <div class="main-body-content">
-                        <div id="slide1-chapter1">
-                            <h2> 小标题1</h2>
-                            <p> *******(内容)引用文献1(点击跳转到参考文献部分)<a linkedidchapter="slide1-chapter7" class="main-nav-link hyperlink"><sup>1-4</sup></a>. ************。引用文献2<a linkedidchapter="slide1-chapter7" class="main-nav-link hyperlink"><sup>5,6</sup></a>. However, ******</p>
-                        </div>
-                        <!--插入图片，左图片，右解释-->
-                        <div class="figure-wrapper">
-                            <div class="figure-container width50">
-                                <img src="../../resources/temp.jpg" alt="">
-                                <p><strong>图片*(加粗).</strong> 图片的详细说明</p>
+                        <div id="slide1-chapter1" class="popout">
+                            <div id="coll1" role="button" tabindex="0"  class="collapsible main-nav-link" linkedidchapter="slide1-chapter1">
+                                WEEK 1                                            3.31~4.6
                             </div>
-                            <div class="side-box-content width50">
-                                <p><i class="fas fa-mouse-pointer"></i> ********* <a href="https://2020.igem.org/Team:Leiden/Model" class="hyperlink">点击可跳转到其他页面</a> ********</p>
-                            </div>
-                        </div>
-                        <div id="slide1-chapter2">
-                            <h2> 标题2</h2>
-                            <p> 内容</p>
-                            <!--弹性布局三张图片-->
-                            <div class="figure-container ">
-                                <div class="figure-wrapper">
-                                    <div class="figure-container width30">
-                                        <img src="../../resources/temp.jpg" alt="">
-                                    </div>
-                                    <div class="figure-container width30">
-                                        <img src="../../resources/temp.jpg" alt="">
-                                    </div>
-                                    <div class="figure-container width25">
-                                        <img src="../../resources/temp.jpg" alt="">
-                                    </div>
-
-                                </div>
-                                <p>图片解释</p>
-                            </div>
-                            <p>
-                                内容
-                            </p>
-                            <p>内容 <a href="https://www.baidu.com/" class="hyperlink">我是链接，点我跳转到百度</a> 页面!</p>
-                        </div>
-                        <div id="slide1-chapter3">
-                            <h2> 标题3 </h2>
-                            <p>我是内容</p>
-                            <p>
-                                我是内容
-                            </p>
-                            <div class="figure-container auto-margin">
-                                <img src="../../resources/temp.jpg" alt="">
-                                <p><strong>我是图片</strong> 图片解释</p>
-                            </div>
-
-                            <div class="side-box-content auto-margin">
-                                <h3><i class="fas fa-hourglass-half"></i> 子标题</h3>
-                                <p>
-                                    这里是灰色地带，但我可以 <span class="highlight">高亮</span> 参考文献<a linkedidchapter="slide1-chapter7" class="main-nav-link hyperlink"><sup>26-28</sup></a>. *******</a>.
-                                </p>
-                            </div>
-                            <br>
-                            <div class="side-box-content auto-margin">
-                                <h3> <i class="fas fa-viruses"></i> 子标题</h3>
-                                <p>
-                                    这里是灰色地带，但我可以 <span class="highlight">高亮</span> 参考文献<a linkedidchapter="slide1-chapter7" class="main-nav-link hyperlink"><sup>26-28</sup></a>. *******</a>.
-                                </p>
-                            </div>
-
-                        </div>
-                        <div id="slide1-chapter4">
-                            <h2>标题4</h2>
-                            <div class="figure-wrapper">
-                                <p class="width60-no-margin-text">内容</p>
-                                <!--居右的图片-->
-                                <div class="figure-container width40">
-                                    <img src="../../resources/temp.jpg" alt="">
-                                    <p><strong>我是图片</strong> 居右的图片</p>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content-wrapper">
+                                    <ol>
+                                        <li>pYB1a-PobR constructing experiment.</li>
+                                        <li>Preliminary experiments of chloramphenicol screening. </li>
+                                    </ol>
+                                    <p style="text-align: right"><a href="">Check out our daily lab transcript here→ </a></p>
                                 </div>
                             </div>
-                            <div class="side-box-content auto-margin">
-                                <p> <i class="far fa-lightbulb"></i> 这里是灰色地带<a linkedidchapter="slide1-chapter5" class="main-nav-link hyperlink"><sup>32</sup></a>. ****</p>
+                        </div>
+                        <div class="popout">
+                            <div id="coll2" role="button" tabindex="0"  class="collapsible main-nav-link" linkedidchapter="slide1-chapter1">
+                                WEEK 2                                            4.7~4.13
+                            </div>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content-wrapper">
+                                    <ol>
+                                        <li>Optimization of induction conditions: 20 mg/mL chloramphenicol different concentrations of 4HB (Three groups of repeats); Changes of fluorescence values in different 4HB concentrations in 8.5 hour. </li>
+                                        <li>Screening of random mutation: Re-screening validation data of 16-F4 and 18-B4.</li>
+                                        <li>Re-screening: T5 plate.</li>
+                                    </ol>
+                                    <p style="text-align: right"><a href="">Check out our daily lab transcript here→ </a></p>
+                                </div>
                             </div>
                         </div>
-                        <div class="references" id="slide1-chapter5">
-                            <h2> 参考文献</h2>
-                            <p>
-                            <ol>
-                                <li>文献1. Available from: <a href="" class="hyperlink" target="_blank" >文献地址</a></li>
-                                <li>文献2. Available from: <a href="" class="hyperlink" target="_blank" >文献地址</a></li>
-                                <li>文献3. Available from: <a href="" class="hyperlink" target="_blank" >文献地址</a></li>
-                            </ol>
-                            </p>
+                        <div class="popout">
+                            <div id="coll3" role="button" tabindex="0"  class="collapsible main-nav-link" linkedidchapter="slide1-chapter1">
+                                WEEK 3                                           4.14~4.20
+                            </div>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content-wrapper">
+                                    <ol>
+                                        <li>HMA gradient verification: 16-F4.</li>
+                                        <li>Sequencing: 16-F4 and 18-B4.</li>
+                                    </ol>
+                                    <p style="text-align: right"><a href="">Check out our daily lab transcript here→ </a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popout">
+                            <div id="coll4" role="button" tabindex="0"  class="collapsible main-nav-link" linkedidchapter="slide1-chapter1">
+                                WEEK 4                                           4.21~4.27
+                            </div>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content-wrapper">
+                                    <ol>
+                                        <li>Replace the ori of vector: We used Gibson ligation and electrophoresis detection for the bacteria replaced by the hmaS vector and hmaS-tktA-ppsA vector respectively after PCR.</li>
+                                    </ol>
+                                    <p style="text-align: right"><a href="">Check out our daily lab transcript here→ </a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popout">
+                            <div id="coll5" role="button" tabindex="0"  class="collapsible main-nav-link" linkedidchapter="slide1-chapter1">
+                                WEEK 5                                            4.28~5.4
+                            </div>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content-wrapper">
+                                    <ol>
+                                        <li>Error analysis of 96-well plates and deep-hole plates.</li>
+                                    </ol>
+                                    <p style="text-align: right"><a href="">Check out our daily lab transcript here→ </a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popout">
+                            <div id="coll6" role="button" tabindex="0"  class="collapsible main-nav-link" linkedidchapter="slide1-chapter1">
+                                WEEK 6                                            5.5~5.11
+                            </div>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content-wrapper">
+                                    <ol>
+                                        <li>Replace the 4HB solvent: Anhydrous ethanol was used to reconfigure 4HB for the solution, and the difference between it and methanol in response to 4HB was verified. </li>
+                                    </ol>
+                                    <p style="text-align: right"><a href="">Check out our daily lab transcript here→ </a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popout">
+                            <div id="coll7" role="button" tabindex="0"  class="collapsible main-nav-link" linkedidchapter="slide1-chapter1">
+                                WEEK 7                                           5.12~5.18
+                            </div>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content-wrapper">
+                                    <ol>
+                                        <li>Correction formula. </li>
+                                    </ol>
+                                    <p style="text-align: right"><a href="">Check out our daily lab transcript here→ </a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popout">
+                            <div id="coll8" role="button" tabindex="0"  class="collapsible main-nav-link" linkedidchapter="slide1-chapter1">
+                                WEEK 8                                           5.19~5.25
+                            </div>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content-wrapper">
+                                    <ol>
+                                        <li>Determination of engineering bacteria by HPLC. </li>
+                                        <li>Protein expression of engineering bacteria. </li>
+                                        <li>Response condition groping:
+                                            <br>(1)	Test the toxicity of 4HB and HMA.
+                                            <br>(2)	Find the appropriate concentration of 4HB.
+                                            <br>(3)	HMA validation of control bacteria.
+                                        </li>
+                                        <li>Cmr gradient experiment. </li>
+                                        <li>Exploration of first screening on solid medium. </li>
+                                    </ol>
+                                    <p style="text-align: right"><a href="">Check out our daily lab transcript here→ </a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popout">
+                            <div id="coll9" role="button" tabindex="0"  class="collapsible main-nav-link" linkedidchapter="slide1-chapter1">
+                                WEEK 9                                            5.26~6.1
+                            </div>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content-wrapper">
+                                    <ol>
+                                        <li>Determination of engineering bacteria by HPLC. </li>
+                                        <li>Screening. </li>
+                                        <li>Liquid initial screening conditions.</li>
+                                        <li>Re-screening verification.</li>
+                                        <li>First screening of solid medium conditions. </li>
+                                    </ol>
+                                    <p style="text-align: right"><a href="">Check out our daily lab transcript here→ </a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popout">
+                            <div id="coll10" role="button" tabindex="0"  class="collapsible main-nav-link" linkedidchapter="slide1-chapter1">
+                                WEEK 10                                            6.2~6.8
+                            </div>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content-wrapper">
+                                    <ol>
+                                        <li>Re-screening verification: no strains that meet the requirements have been screened out.</li>
+                                        <li>Megahop PCR: Perform error-prone PCR on pYB1a-pobR-eGFP-Cmr, and then purify and recover the PCR product. </li>
+                                        <li>Preliminary test of flat plate screening: to determine whether the low-intensity induction can make the strain grow normally under the condition of adding 0.1% 20  mg/mL and 30 mg/mL chloramphenicol. </li>
+                                    </ol>
+                                    <p style="text-align: right"><a href="">Check out our daily lab transcript here→ </a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popout">
+                            <div id="coll11" role="button" tabindex="0"  class="collapsible main-nav-link" linkedidchapter="slide1-chapter1">
+                                WEEK 11                                           6.9~6.15
+                            </div>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content-wrapper">
+                                    <ol>
+                                        <li>Re-screening verification: A total of 21 strains were re-screened and verified. There are no strains that meet the standards and the labeled strains have been sent for sequencing.</li>
+                                        <li>Preliminary experiment of flat plate screening: The plate screening feasibility experiment was carried out, and the BW control bacteria (only responding to 4HB) were quantified and plated. Then, estimate the mutation library capacity.</li>
+                                        <li>Megahop PCR system modification: We modified the Megahop PCR system for constructing pYB1a-pobR-eGFP-Cmr.</li>
+                                    </ol>
+                                    <p style="text-align: right"><a href="">Check out our daily lab transcript here→ </a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popout">
+                            <div id="coll12" role="button" tabindex="0"  class="collapsible main-nav-link" linkedidchapter="slide1-chapter1">
+                                WEEK 12                                          6.16~6.22
+                            </div>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content-wrapper">
+                                    <ol>
+                                        <li>Construction of engineering bacteria. </li>
+                                        <li>Perform PCR product: A total of 6 bacteria were sent for re-screening this week. </li>
+                                        <li>Re-screening verification: No strains that meet the requirements appeared. </li>
+                                        <li>Preparation of electrocompetence. </li>
+                                    </ol>
+                                    <p style="text-align: right"><a href="">Check out our daily lab transcript here→ </a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popout">
+                            <div id="coll13" role="button" tabindex="0"  class="collapsible main-nav-link" linkedidchapter="slide1-chapter1">
+                                WEEK 13                                          6.23~6.29
+                            </div>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content-wrapper">
+                                    <ol>
+                                        <li>Photocopying.</li>
+                                        <li>Re-screening verification. </li>
+                                        <li>Verification of the efficiency of commercialization to competence. </li>
+                                        <li>Construction of engineering bacteria.</li>
+                                    </ol>
+                                    <p style="text-align: right"><a href="">Check out our daily lab transcript here→ </a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popout">
+                            <div id="coll14" role="button" tabindex="0"  class="collapsible main-nav-link" linkedidchapter="slide1-chapter1">
+                                WEEK 14                                           6.30~7.6
+                            </div>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content-wrapper">
+                                    <ol>
+                                        <li>Plate screening. </li>
+                                        <li>Re-screening. </li>
+                                        <li>pTarget-aspC Construction.</li>
+                                    </ol>
+                                    <p style="text-align: right"><a href="">Check out our daily lab transcript here→ </a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popout">
+                            <div id="coll15" role="button" tabindex="0"  class="collapsible main-nav-link" linkedidchapter="slide1-chapter1">
+                                WEEK 15                                           7.7~7.13
+                            </div>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content-wrapper">
+                                    <ol>
+                                        <li>Engineering bacteria. </li>
+                                        <li>Photocopying. </li>
+                                        <li>Re-screening. </li>
+                                        <li>Re-screening verification. </li>
+                                        <li>Data collation.</li>
+                                    </ol>
+                                    <p style="text-align: right"><a href="">Check out our daily lab transcript here→ </a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popout">
+                            <div id="coll16" role="button" tabindex="0"  class="collapsible main-nav-link" linkedidchapter="slide1-chapter1">
+                                WEEK 16                                          7.14~7.20
+                            </div>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content-wrapper">
+                                    <ol>
+                                        <li>Re-screening. </li>
+                                        <li>Re-screening verification. </li>
+                                        <li>Verification of possible strains. </li>
+                                        <li>Conversion coating. </li>
+                                        <li>Re-screening.</li>
+                                    </ol>
+                                    <p style="text-align: right"><a href="">Check out our daily lab transcript here→ </a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popout">
+                            <div id="coll17" role="button" tabindex="0"  class="collapsible main-nav-link" linkedidchapter="slide1-chapter1">
+                                WEEK 17                                          7.21~7.27
+                            </div>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content-wrapper">
+                                    <ol>
+                                        <li>Engineering bacteria. </li>
+                                        <li>Changes in the calculation method of induction strength. </li>
+                                        <li>Re-screening. </li>
+                                        <li>Re-screening verification.</li>
+                                        <li>HMA Gradient Verification.</li>
+                                        <li>HMA analog response verification. New HMA analog response verification.</li>
+                                    </ol>
+                                    <p style="text-align: right"><a href="">Check out our daily lab transcript here→ </a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popout">
+                            <div id="coll18" role="button" tabindex="0"  class="collapsible main-nav-link" linkedidchapter="slide1-chapter1">
+                                WEEK 18                                           7.28~8.3
+                            </div>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content-wrapper">
+                                    <ol>
+                                        <li>Changes in the calculation method of induction strength. </li>
+                                        <li>Re-processing of re-screening data. </li>
+                                        <li>Re-screening verification. </li>
+                                        <li>HMA gradient verification. </li>
+                                        <li>Verification of HMA analog response. </li>
+                                        <li>Sequencing.</li>
+                                    </ol>
+                                    <p style="text-align: right"><a href="">Check out our daily lab transcript here→ </a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popout">
+                            <div id="coll19" role="button" tabindex="0"  class="collapsible main-nav-link" linkedidchapter="slide1-chapter1">
+                                WEEK 19                                           8.4~8.10
+                            </div>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content-wrapper">
+                                    <ol>
+                                        <li>Gene knockout: knockout tyrR on the bases of BL21ΔtyrB. </li>
+                                        <li>HMA ligand specificity test: Have HMA ligand specificity test for the preliminarily screened biosensors and DH5αpobRWT.  </li>
+                                        <li>Fluorescence re-screening. </li>
+                                        <li>Site-directed mutagenesis of the PobR CDS.</li>
+                                    </ol>
+                                    <p style="text-align: right"><a href="">Check out our daily lab transcript here→ </a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popout">
+                            <div id="coll20" role="button" tabindex="0"  class="collapsible main-nav-link" linkedidchapter="slide1-chapter1">
+                                WEEK 20                                          8.11~8.17
+                            </div>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content-wrapper">
+                                    <ol>
+                                        <li>Site-directed mutagenesis of the PobR CDS. </li>
+                                        <li>Gene knockout: We removed pTarget-tyrB from the strain. Then, we tried to knock tyrR out based on BL21ΔtyrB. </li>
+                                        <li>Site-directed mutagenesis of the PobR CDS. </li>
+                                        <li>Modeling and docking. </li>
+                                        <li>Re-screening: We stabilized the system and screened the 647 clones selected last time, then we re-screened the clones (83 clones in total). </li>
+                                        <li>Chloramphenicol ALE pre-experiment.</li>
+                                    </ol>
+                                    <p style="text-align: right"><a href="">Check out our daily lab transcript here→ </a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popout">
+                            <div id="coll21" role="button" tabindex="0"  class="collapsible main-nav-link" linkedidchapter="slide1-chapter1">
+                                WEEK 21                                          8.18~8.24
+                            </div>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content-wrapper">
+                                    <ol>
+                                        <li>Gene knockout: tyrR knockout; aspC knockout; sequencing of pTarget-aspC. </li>
+                                        <li>Gradient HMA concentration induction assay & fluorescence re-screening: F5-B7. </li>
+                                        <li>Ligand specificity test: F7-E8-3, F5-A10-1, F6-F4-3, F5-B7-2 and DH5αpobRWT. </li>
+                                        <li>Modeling and docking: Docking between structure by RoseTTAFold and 4HB; docking between structure by AlphaFold2 and 4HB; the PobR protein structure was simulated by RoseTTAFold; the protein structure of PobR was simulated using AlphaFold2, and AlphaFold2 was run through cloud computing platform; comparison of RoseTTAFold and AlphaFold2.</li>
+                                        <li>Site-directed mutagenesis of the PobR CDS. </li>
+                                        <li>Chloramphenicol ALE pre-experiment.</li>
+                                    </ol>
+                                    <p style="text-align: right"><a href="">Check out our daily lab transcript here→ </a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popout">
+                            <div id="coll22" role="button" tabindex="0"  class="collapsible main-nav-link" linkedidchapter="slide1-chapter1">
+                                WEEK 22                                          8.25~8.31
+                            </div>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content-wrapper">
+                                    <ol>
+                                        <li>Site-directed mutagenesis of the PobR CDS. </li>
+                                        <li>Gene knockout: aspC knockout. </li>
+                                        <li>Gradient HMA & 4HB concentration induction assay. </li>
+                                        <li>Chloramphenicol ALE pre-experiment. </li>
+                                        <li>Ligand specificity test: F7-E8-3, F6-F4-3 and DH5αpobRWT.</li>
+                                    </ol>
+                                    <p style="text-align: right"><a href="">Check out our daily lab transcript here→ </a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popout">
+                            <div id="coll23" role="button" tabindex="0"  class="collapsible main-nav-link" linkedidchapter="slide1-chapter1">
+                                WEEK 23                                            9.1~9.7
+                            </div>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content-wrapper">
+                                    <ol>
+                                        <li>Gene knockout: aspC knockout</li>
+                                        <li>Chloramphenicol ALE pre-experiment.  </li>
+                                        <li>Fluorescence re-screening of single amino acid mutants.</li>
+                                    </ol>
+                                    <p style="text-align: right"><a href="">Check out our daily lab transcript here→ </a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popout">
+                            <div id="coll24" role="button" tabindex="0"  class="collapsible main-nav-link" linkedidchapter="slide1-chapter1">
+                                WEEK 24                                           9.8~9.14
+                            </div>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content-wrapper">
+                                    <ol>
+                                        <li>pYB1a-PobRmut(F5-B7)-eGFP-SacB constructing experiment. </li>
+                                        <li>pYB1a-PobRmut (F5-B7)-eGFP-SacB sucrose gradient pretest. </li>
+                                        <li>pRB1s-hmaS generation of mutant library replacing with Anderson promoter.</li>
+                                    </ol>
+                                    <p style="text-align: right"><a href="">Check out our daily lab transcript here→ </a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popout">
+                            <div id="coll25" role="button" tabindex="0"  class="collapsible main-nav-link" linkedidchapter="slide1-chapter1">
+                                WEEK 25                                          9.15~9.21
+                            </div>
+                            <div class="collapsible-content">
+                                <div class="collapsible-content-wrapper">
+                                    <ol>
+                                        <li>HMA-0 constructing experiment.  </li>
+                                        <li>Adaptive evolution experiment under chloramphenicol pressure.</li>
+                                    </ol>
+                                    <p style="text-align: right"><a href="">Check out our daily lab transcript here→ </a></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -302,9 +585,7 @@
     </div>
 </div>
 <a href="#" id="mobile-to-top-arrow" class="to-top">
-    <p style="font-size: 10px;text-align: center">Top of</p>
-    <p style="font-size: 10px;text-align: center">the page</p>
-    <img style="max-height: 70px" src="../../resources/to_top.png">
+    <i class="fas fa-chevron-circle-up"></i>
 </a>
 <!---------- FOOTER ------------>
 <footer id="footer">

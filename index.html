@@ -23,12 +23,34 @@
             color: black;
             margin: 20px 0;
         }
+        .home-content{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+        .home-content p{
+            padding: 0 10% 0 10%;
+            text-indent: 2em;
+            line-height: 1.5;
+            font-size: 1.5rem;
+        }
+        .contact-icon{
+            display: flex;
+            align-items: center;
+            font-size: 3em;
+            color: white;
+        }
+        .contact-icon a{
+            color: white;
+        }
     </style>
 </head>
 <style>
 body{
-    background-image:url(https://2020.igem.org/wiki/images/0/09/T--Leiden--BackgroundContinuous1.png);
-  background-repeat: repeat;url(https://2020.igem.org/wiki/images/0/09/T--Leiden--BackgroundContinuous1.png);
+  /*  background-image:url(https://2020.igem.org/wiki/images/0/09/T--Leiden--BackgroundContinuous1.png);*/
+  /*background-repeat: repeat;url(https://2020.igem.org/wiki/images/0/09/T--Leiden--BackgroundContinuous1.png);*/
   background-size: 1200px;
 }
 </style>
@@ -208,7 +230,7 @@ body{
       <!------------------ BUTTONS ---------------------------->
       <div class="buttons"> </div>
 
-   <div id="home-main-body" class="main-page-home-section">
+   <div id="home-main-body" class="main-page-home-section" style="padding: 3em 0em 0 0em ;max-width: none">
 <!--       向下的箭头-->
     <a href="#home-main-body" class="arrow-down">
         <div class="arrow-down-scroll2">
@@ -220,7 +242,22 @@ body{
             <i class="fas fa-angle-down"></i>
         </div>
     </a>
-       <h1>homepage主体部分</h1>
+       <div class="home-content">
+           <img style="margin-left: -2%;width: 35%" src="web/resources/home_1.png" alt="">
+           <p>In this study, an allosteric transcription factors (aTFs) based biosensor for HMA is developed via directed evolution to realize the purpose of visualization of product yield and adaptive evolution. Our team found an allosteric transcription factor, PobR to conduct following experiment. </p>
+       </div>
+       <div class="home-content">
+           <p>A PobR random library was built. Two reporter genes were used to screen for variants which can respond to HMA. By characterizing the screened biosensor from various aspects, the impact of mutations on biosensor response can be discussed from the perspective of amino acid replacement by computer simulation. </p>
+           <img style="margin-right: -1%;width: 50%"  src="web/resources/home_2.png" alt="">
+       </div>
+       <div class="home-content">
+           <img style="margin-left: -2%;width: 50%" src="web/resources/home_3.png" alt="">
+           <p>On the basis of this biosensor, obtaining high-yield HMA strains through Adaptive Laboratory Evolution ALE methods is expected in order to screen out engineered bacteria with high HMA production. Additionally, directed evolution of Hmas enzyme which can produce HMA and mandelic acid (MA) can be studied in the future.</p>
+       </div>
+
+
+
+
 <!--三个快捷导航-->
        <div class="figure-container">
            <div class="figure-wrapper">
@@ -279,21 +316,17 @@ body{
                         About Us
                     </h3>
                     <p>
-                        We are the 2021 team of iDEC NEFU_China!
+                        This team is composed of enthusiastic  students from three different colleges and various majors. To spy out the secrets of directed evolution, a group of beginners are looking forward to creating extraordinary experiences and we did it.
                     </p>
                 </div>
                 <!---- Follow Us -->
                 <div class="box">
                     <h3>
-                        Follow Us
+                        Helpful links
                     </h3>
-                    <div class="social-media-icons">
-                        <a target="_blank" href="https://www.facebook.com/igemleiden/"> <i class="fab fa-facebook-square"></i></a>
-                        <a target="_blank" href="https://www.linkedin.com/in/igem-leiden/?originalSubdomain=nl"> <i class="fab fa-linkedin"></i></a>
-                        <a target="_blank" href="https://www.instagram.com/igemleiden/?hl=nl"> <i class="fab fa-instagram-square"></i> </a>
-                        <a target="_blank" href="https://twitter.com/igem_leiden"> <i class="fab fa-twitter-square"></i></a>
-                        <a target="_blank" href="https://www.youtube.com/channel/UCfEzpiBJ3NTQRGyslWHxzAg/featured"> <i class="fab fa-youtube-square"></i></a>
-                    </div>
+                    <h4><a target="_blank" href="web/resources/poster.jpg">Poster</a></h4>
+                    <h4><a target="_blank" href="web/page/PROJECT/Design.html">Design</a></h4>
+                    <h4><a target="_blank" href="web/page/DOCUMENTATION/Notebook.html">Notebook</a></h4>
                 </div>
                 <!---- Contact Us-->
                 <div class="box">
@@ -301,25 +334,20 @@ body{
                         Contact Us
                     </h3>
                     <p>
-                        iDEC Team NEFU_China <br>
-                        <a>idec_nefu2021@163.com</a>
+                        IDEC_NEFU2021@163.com<br>
+                        NEFU_iGEM2021
                     </p>
                 </div>
             </div>
-        </div>
-        <div class="sponsors" >
-            <div class="main-sponsors">
-                <div style="width:30%" class="image-main-sponsor">
-                    <a  target="_blank" href="https://itility.nl/"> <img src="https://2020.igem.org/wiki/images/d/de/T--Leiden--Itility-logo-color.png" alt="Itility"> </a>
+            <div class="contact-info-content">
+                <div class="contact-icon">
+                    <a target="_blank" href=""> <i class="fa fa-envelope"></i></a>
                 </div>
-                <div  style="width:15%" class="image-main-sponsor">
-                    <a  target="_blank" href="https://www.medicaldelta.nl/"><img src="https://2020.igem.org/wiki/images/d/d5/T--Leiden--medical_delta_logo.png" alt="Medical delta"> </a>
+                <div class="contact-icon">
+                    <a target="_blank" href=""> <i class="fab fa-facebook-square"></i></a>
                 </div>
-                <div style="width:9%" class="image-main-sponsor">
-                    <a target="_blank" href="https://www.idegroup.com.au/"><img src="https://2020.igem.org/wiki/images/9/99/T--Leiden--IDE_Logo.png" alt="IDE"></a>
-                </div>
-                <div  class="image-main-sponsor">
-                    <a target="_blank" href="https://www.chdr.nl/"><img src="https://2020.igem.org/wiki/images/9/9e/T--Leiden--CHDR_Logo.png" alt="CHDR"></a>
+                <div class="contact-icon">
+                    <a target="_blank" href=""> <i class="fab fa-twitter-square"></i></a>
                 </div>
             </div>
         </div>

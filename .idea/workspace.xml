@@ -2,35 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1db84339-bca1-437c-8696-1721e9bfef9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/resources/Notebook/WEEEK15.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/Notebook/WEEEK16.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/Notebook/WEEEK17.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/Notebook/WEEEK18.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/Notebook/WEEK 11.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/Notebook/WEEK 19.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/Notebook/WEEK 20.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/Notebook/WEEK 21.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/Notebook/WEEK 22.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/Notebook/WEEK 23.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/Notebook/WEEK10.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/Notebook/WEEK12.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/Notebook/WEEK13.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/Notebook/WEEK14.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/Notebook/week1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/Notebook/week2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/Notebook/week24.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/Notebook/week25.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/Notebook/week26.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/Notebook/week27.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/Notebook/week3.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/Notebook/week4.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/Notebook/week5.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/Notebook/week6.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/Notebook/week7.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/Notebook/week8.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/Notebook/week9.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/home_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/home_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/home_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/poster.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/page/DOCUMENTATION/Notebook.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/DOCUMENTATION/Notebook.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/CSS/main_cssstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/CSS/main_cssstyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/page/PROJECT/Design.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/page/PROJECT/Design.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/IDEC_homepage.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/IDEC_homepage.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/loading.mp4" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +108,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/index.html</url>
-          <line>135</line>
+          <line>157</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

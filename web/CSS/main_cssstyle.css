@@ -457,7 +457,7 @@ input:checked+.switch-slider:before {
 }
 
 .home{
-  background-image: url(https://2020.igem.org/wiki/images/0/09/T--Leiden--BackgroundContinuous1.png);
+  /*background-image: url(https://2020.igem.org/wiki/images/0/09/T--Leiden--BackgroundContinuous1.png);*/
   background-repeat: repeat;
   background-size: 1200px;
 }
@@ -1917,6 +1917,12 @@ a.single-button:hover, a.single-button:active{
   padding: 0.5em;
   color: white;
 }
+.box h4 {
+  font-size: 1.3em;
+  padding: 5px 0;
+  color: white;
+  text-indent: 1em;
+}
 
 .box p{
   color: white;
@@ -1943,43 +1949,7 @@ a.single-button:hover, a.single-button:active{
   transition: all 0.3s;
 }
 
-/********** SPonsors *******************/
-.sponsorsh2 h2{
-  text-align: center;
-}
-.sponsors {
-  background-color: #fff;
-}
 
-.main-sponsors, .sub-sponsors {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; 
-  -webkit-box-pack: start; 
-      -ms-flex-pack: start; 
-          justify-content: flex-start;
-}
-
-.image-main-sponsor {
-  width: 20%;
-  padding: 1em 1em;
-}
-.image-main-sponsor img {
-  width: 100%;
-}  
-
-
-.image-sub-sponsor img {
-  width: 100%;
-}
-.image-sub-sponsor{
-  width: 8%;
-  padding: 1em;
-}
-
-#IDElogo{
-  width: 4%;
-}
 /***** HOVER EFFECT SPONSORS***************/
 
 .image-main-sponsor a{

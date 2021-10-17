@@ -12,6 +12,35 @@
             font-size: 1.1rem;
            /*border: black 1px solid;*/
         }
+		/* footer的样式 */
+		.contact-icon{
+		    display: flex;
+		    align-items: center;
+		    /*font-size: 3em;*/
+		    color: white;
+		}
+		.contact-icon a{
+		    color: white;
+		}
+		.contact-icon i{
+		    font-size: 3em;
+		}
+		/* 去掉头图黑色部分 */
+		header{
+		    background: url("../../resources/all_members.jpg");
+		    min-height: 450px;
+		    background-repeat: no-repeat;
+		    background-size: cover;
+		}
+		.page-title {
+		    padding-top:10em;
+		}
+		h1 {
+		    font-size: 2.2em;
+		}
+		/* h2 {
+		    text-align: center;
+		} */
     </style>
 </head>
 <body>
@@ -29,7 +58,7 @@
         </div>
         <div class="chapters">
             <div class="dropdown-menu cool-link">
-                <a class="chapter-nav " href="https://simeixue.github.io/iDECtest/">
+                <a class="chapter-nav " href="https://idec2021.github.io/NEFU_China/">
                     <div class="chapter-content">
                         <div class="chapter-title active ">
                             Home
@@ -40,7 +69,7 @@
             <div class="dropdown-menu cool-link">
                 <a class="chapter-nav " href="#">
                     <div class="chapter-content">
-                        <div class="chapter-title ">
+                        <div class="chapter-title active ">
                             Team
                         </div>
                         <div class="chapter-icon">
@@ -60,7 +89,7 @@
             <div class="dropdown-menu cool-link">
                 <a class="chapter-nav " href="#">
                     <div class="chapter-content">
-                        <div class="chapter-title ">
+                        <div class="chapter-title active ">
                             Project
                         </div>
                         <div class="chapter-icon">
@@ -83,7 +112,7 @@
             <div class="dropdown-menu cool-link">
                 <a class="chapter-nav " href="#">
                     <div class="chapter-content">
-                        <div class="chapter-title ">
+                        <div class="chapter-title active ">
                             Documentation
                         </div>
                         <div class="chapter-icon">
@@ -108,7 +137,7 @@
     <!-------- 侧边栏Navigation for mobile-------->
     <nav id="mobile-nav">
         <div class="logo">
-            <a href="https://simeixue.github.io/iDECtest/">
+            <a href="https://idec2021.github.io/NEFU_China/">
                 <img style="max-height: 400px" id="nav-logo" src="../../resources/HMAlogo.png" alt="This is our logo, but if you click it, you will return home">
             </a>
         </div>
@@ -167,18 +196,18 @@
     <!------------ 页面标题PAGE TITLE -------------------->
     <div class="page-title">
         <div class="page-title-content">
-            <h1>Attributions</h1><!---Page title -->
+            <h1>ATTRIBUTIONS</h1><!---Page title -->
         </div>
     </div>
 </header>
 <div class="grid-normal">
     <!--------------Introduction/Summary--------------------->
     <div class="introduction grid-normal">
-        <div class="introduction-content">
+        <!-- <div class="introduction-content">
             <p>
                 "Gifts of roses, hand there are lingering fragrance. “We are grateful to all those who have helped and guided us throughout the year. Without them, our experiments would struggle; Because of them, our future is bright.
             </p>
-        </div>
+        </div> -->
     </div>
 </div>
 <div style="display:none" id="marker" class= "triangle-down"> </div>
@@ -212,6 +241,9 @@
             <section class="slide-sections">
                 <div class="main-body">
                     <div class="main-body-content">
+						<div style="margin-top: 40px">
+							    <p>"Gifts of roses, hand there are lingering fragrance. “We are grateful to all those who have helped and guided us throughout the year. Without them, our experiments would struggle; Because of them, our future is bright.</p>
+						</div>
                         <div id="slide1-chapter1">
                             <h2>Team</h2>
                             <ul>
@@ -262,140 +294,130 @@
                         <div id="slide1-chapter2">
                             <h2>Advisors</h2>
                             <div>
-                                <h3>Yaoyao Liang</h3>
-                                <ul>
-                                    <li>Coached and monitor the progress of our experiments</li>
-                                    <li>Guided us to solve the difficult problems in the process of experiment at any time</li>
-                                </ul>
+                                <li><strong>Yaoyao Liang</strong>
+                                    <p>Coached and monitor the progress of our experiments</p>
+                                    <p>Guided us to solve the difficult problems in the process of experiment at any time</p>
+									</li>
                             </div>
+							<div>
+							    <li><strong>Hongwei Zhang</strong>
+							        <p>Provided tutoring during the experiment</p>
+							        <p>Provided guidance on experimental methods and precautions of difficult experiments</p>
+									</li>
+							</div>
+							<div>
+							    <li><strong>Qinghua Li</strong>
+							        <p>Provided tutoring during the experiment</p>
+							        <p>Provided us with basic experimental methods and techniques</p>
+									</li>
+							</div>
+							
+							<div>
+							    <li><strong>Jian Song</strong>
+							        <p>Provided tutoring during the experiment</p>
+							        <p>Provided us with basic experimental methods and techniques</p>
+									</li>
+							</div>
+							<div>
+							    <li><strong>Dengxuan Zhu</strong>
+							        <p>Provided tutoring during the experiment</p>
+							        <p>Provided guidance on the acquisition and processing of experimental data</p>
+									</li>
+							</div>
+							<div>
+							    <li><strong>Yi Zheng</strong>
+							        <p>Provided tutoring during the experiment</p>
+							        <p>Provided us with basic experimental methods and techniques</p>
+									</li>
+							</div>
+							<div>
+							    <li><strong>Danjie Song</strong>
+							        <p>Provided tutoring during the experiment</p>
+							        <p>Provided us with basic experimental methods and techniques</p>
+									</li>
+							</div>
+							<div>
+							    <li><strong>Zhenyu Sun</strong>
+							        <p>Provided tutoring during the experiment</p>
+							        <p>Provided us with basic experimental methods and techniques</p>
+									</li>
+							</div>
+							<div>
+							    <li><strong>Yi Wang</strong>
+							        <p>Provided tutoring during the experiment</p>
+							        <p>Provided us with basic experimental methods and techniques</p>
+									</li>
+							</div>
+							<div>
+							    <li><strong>Yi Wang</strong>
+							        <p>Provided tutoring during the experiment</p>
+							        <p>Provided guidance for the skilled use of relevant websites</p>
+									</li>
+							</div>
+							<div>
+							    <li><strong>Yi Wang</strong>
+							        <p>Provided tutoring during the experiment</p>
+							        <p>Provided guidance for the skilled use of relevant websites</p>
+									</li>
+							</div>
                             <div>
-                                <h3>Hongwei Zhang</h3>
-                                <ul>
-                                    <li>Provided tutoring during the experiment</li>
-                                    <li>Provided guidance on experimental methods and precautions of difficult experiments</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h3>Qinghua Li</h3>
-                                <ul>
-                                    <li>Provided tutoring during the experiment</li>
-                                    <li>Provided us with basic experimental methods and techniques</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h3>Jian Song</h3>
-                                <ul>
-                                    <li>Provided tutoring during the experiment</li>
-                                    <li>Provided us with basic experimental methods and techniques</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h3>Dengxuan Zhu</h3>
-                                <ul>
-                                    <li>Provided tutoring during the experiment</li>
-                                    <li>Provided guidance on the acquisition and processing of experimental data</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h3>Yi Zheng</h3>
-                                <ul>
-                                    <li>Provided tutoring during the experiment</li>
-                                    <li>Provided us with basic experimental methods and techniques</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h3>Danjie Song</h3>
-                                <ul>
-                                    <li>Provided tutoring during the experiment</li>
-                                    <li>Provided us with basic experimental methods and techniques</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h3>Zhenyu Sun</h3>
-                                <ul>
-                                    <li>Provided tutoring during the experiment</li>
-                                    <li>Provided us with basic experimental methods and techniques</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h3>Yi Wang</h3>
-                                <ul>
-                                    <li>Provided tutoring during the experiment</li>
-                                    <li>Provided us with basic experimental methods and techniques</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h3>Zhujun Wei</h3>
-                                <ul>
-                                    <li>Provided tutoring during the experiment</li>
-                                    <li>Provided guidance for the skilled use of relevant websites</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h3>Shuairun Wang</h3>
-                                <ul>
-                                    <li>Provided tutoring during the experiment</li>
-                                    <li>Provided us with basic experimental methods and techniques</li>
-                                </ul>
+                                <li><strong>Shuairun Wang</strong>
+                                    <p>Provided tutoring during the experiment</p>
+                                    <p>Provided us with basic experimental methods and techniques</p>
+                                </li>
                             </div>
                         </div>
                         <div id="slide1-chapter3">
                             <h2>Professional Instructors</h2>
-                            <div>
-                                <h3>Guangchao Sui, Ph.D</h3>
-                                <ul>
-                                    <li>Provided advice and insight on the project</li>
-                                    <li>Provided advice on presentation</li>
-                                    <li>Provided valuable insights on experiments design</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h3>Pengchao Wang, Ph.D</h3>
-                                <ul>
-                                    <li>Provided advice and insight on the project</li>
-                                    <li>Provided lab space, materials, and equipment</li>
-                                    <li>Provided support in experimental technology</li>
-                                    <li>Provided advice on presentation, poster,paper,Wiki and so on</li>
-                                    <li>Provided valuable insights on experiments design</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h3>Chengwei Liu, Ph.D</h3>
-                                <ul>
-                                    <li>Provided advice and insight on the project</li>
-                                    <li>Provided advice on presentation</li>
-                                    <li>Provided valuable insights on experiments design</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h3>Zheyong Xue, Ph.D</h3>
-                                <ul>
-                                    <li>Provided advice and insight on the project</li>
-                                    <li>Provided advice on presentation</li>
-                                    <li>Provided valuable insights on experiments design</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h3>Yu Wang, Ph.D</h3>
-                                <ul>
-                                    <li>Provided advice and insight on the project</li>
-                                    <li>Provided advice on presentation</li>
-                                    <li>Provided valuable insights on experiments design</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h3>Zhichao Xu, Ph.D</h3>
-                                <ul>
-                                    <li>Provided advice and insight on the project</li>
-                                    <li>Provided advice on presentation</li>
-                                    <li>Provided valuable insights on experiments design</li>
-                                </ul>
-                            </div>
-                        </div>
+							<div>
+							    <li><strong>Guangchao Sui, Ph.D</strong>
+							        <p>Provided advice and insight on the project</p>
+							        <p>Provided advice on presentation</p>
+									<p>Provided valuable insights on experiments design</p>
+							    </li>
+							</div>
+							<div>
+							    <li><strong>Pengchao Wang, Ph.D</strong>
+							        <p>Provided advice and insight on the project</p>
+							        <p>Provided lab space, materials, and equipment</p>
+							        <p>Provided support in experimental technology</p>
+							        <p>Provided advice on presentation, poster,paper,Wiki and so on</p>
+							        <p>Provided valuable insights on experiments design</p>
+							    </li>
+							</div>
+							<div>
+							    <li><strong>Chengwei Liu, Ph.D</strong>
+							        <p>Provided advice and insight on the project</p>
+							        <p>Provided advice on presentation</p>
+									<p>Provided valuable insights on experiments design</p>
+							    </li>
+							</div>
+							<div>
+							    <li><strong>Zheyong Xue, Ph.D</strong>
+							        <p>Provided advice and insight on the project</p>
+							        <p>Provided advice on presentation</p>
+									<p>Provided valuable insights on experiments design</p>
+							    </li>
+							</div>
+							<div>
+							    <li><strong>Yu Wang, Ph.D</strong>
+							        <p>Provided advice and insight on the project</p>
+							        <p>Provided advice on presentation</p>
+									<p>Provided valuable insights on experiments design</p>
+							    </li>
+							</div>
+						<div>
+						    <li><strong>Zhichao Xu, Ph.D</strong>
+						        <p>Provided advice and insight on the project</p>
+						        <p>Provided advice on presentation</p>
+								<p>Provided valuable insights on experiments design</p>
+						    </li>
+						</div>
                         <div id="slide1-chapter4">
                             <h2>Special Thanks</h2>
                             <p style="text-indent: 2em">This work was supported by the fund from the Northeast Forestry University (NEFU). We sincerely thank the supports from the research laboratories and faculty members of the College of Life Science, NEFU. </p>
                         </div>
+						<p></p><p></p><p></p>
                     </div>
                 </div>
             </section>
@@ -409,44 +431,51 @@
     <img style="max-height: 70px" src="../../resources/to_top.png">
 </a>
 <!---------- FOOTER ------------>
-<footer id="footer">
-    <div class="contact-info">
-        <div class="contact-info-content">
-            <!--- About Us-->
-            <div class="box">
-                <h3>
-                    About Us
-                </h3>
-                <p>
-                    We are the 2021 team of iDEC NEFU_China!
-                </p>
-            </div>
-            <!---- Follow Us -->
-            <div class="box">
-                <h3>
-                    Follow Us
-                </h3>
-                <div class="social-media-icons">
-                    <a target="_blank" href="https://www.facebook.com/igemleiden/"> <i class="fab fa-facebook-square"></i></a>
-                    <a target="_blank" href="https://www.linkedin.com/in/igem-leiden/?originalSubdomain=nl"> <i class="fab fa-linkedin"></i></a>
-                    <a target="_blank" href="https://www.instagram.com/igemleiden/?hl=nl"> <i class="fab fa-instagram-square"></i> </a>
-                    <a target="_blank" href="https://twitter.com/igem_leiden"> <i class="fab fa-twitter-square"></i></a>
-                    <a target="_blank" href="https://www.youtube.com/channel/UCfEzpiBJ3NTQRGyslWHxzAg/featured"> <i class="fab fa-youtube-square"></i></a>
+    <footer id="footer">
+        <div class="contact-info">
+            <div class="contact-info-content">
+                <!--- About Us-->
+                <div class="box">
+                    <h3>
+                        About Us
+                    </h3>
+                    <p>This team is composed of enthusiastic  students from three different colleges and various majors. To spy out the secrets of directed evolution, a group of beginners are looking forward to creating extraordinary experiences and we did it.
+                    </p>
+                </div>
+                <!---- Follow Us -->
+                <div class="box">
+                    <h3>
+                        Helpful links
+                    </h3>
+                    <h4><a target="_blank" href="../../resources/poster.jpg">Poster</a></h4>
+                    <h4><a target="_blank" href="../../page/PROJECT/Design.html">Design</a></h4>
+                    <h4><a target="_blank" href="../../page/DOCUMENTATION/Notebook.html">Notebook</a></h4>
+                </div>
+                <!---- Contact Us-->
+                <div class="box">
+                    <h3>
+                        Address
+                    </h3>
+                    <p>
+                        Northeast Forestry University, Harbin, Heilongjiang 150040, P. R. China
+                    </p>
                 </div>
             </div>
-            <!---- Contact Us-->
-            <div class="box">
-                <h3>
-                    Contact Us
-                </h3>
-                <p>
-                    iDEC Team NEFU_China <br>
-                    <a>idec_nefu2021@163.com</a>
-                </p>
+            <hr color="white">
+            <div class="contact-info-content">
+                <div class="contact-icon">
+                    <a target="_blank" href=""> <i class="fa fa-envelope"></i>    IDEC_NEFU2021@163.com</a>
+                </div>
+                <div class="contact-icon">
+                    <a target="_blank" href=""> <i class="fab fa-facebook-square"></i>    iDEC NEFU China</a>
+                </div>
+                <div class="contact-icon">
+                    <a target="_blank" href=""> <i class="fab fa-twitter-square"></i>    iDEC NEFU</a>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
+
 
 <script src= "../../JS/jQuery.js" type =text/javascript></script>
 <script src="../../JS/detect.js" type= "text/javascript"></script>

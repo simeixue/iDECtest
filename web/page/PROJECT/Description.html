@@ -8,14 +8,27 @@
     <style>
         header{
             background: url("../../resources/header1.png");
-            /*min-height: 200px;*/
+            min-height: 450px;
             background-repeat: no-repeat;
             background-size: cover;
         }
         .page-title {
-            padding-top:5em;
+            padding-top:10em;
             padding-bottom: 1.5em;
         }
+		/* footer的样式 */
+		.contact-icon{
+		    display: flex;
+		    align-items: center;
+		    /*font-size: 3em;*/
+		    color: white;
+		}
+		.contact-icon a{
+		    color: white;
+		}
+		.contact-icon i{
+		    font-size: 3em;
+		}
     </style>
 </head>
 <body>
@@ -33,7 +46,7 @@
         </div>
         <div class="chapters">
             <div class="dropdown-menu cool-link">
-                <a class="chapter-nav " href="https://simeixue.github.io/iDECtest/">
+                <a class="chapter-nav " href="https://idec2021.github.io/NEFU_China/">
                     <div class="chapter-content">
                         <div class="chapter-title active ">
                             Home
@@ -44,7 +57,7 @@
             <div class="dropdown-menu cool-link">
                 <a class="chapter-nav " href="#">
                     <div class="chapter-content">
-                        <div class="chapter-title ">
+                        <div class="chapter-title active ">
                             Team
                         </div>
                         <div class="chapter-icon">
@@ -64,7 +77,7 @@
             <div class="dropdown-menu cool-link">
                 <a class="chapter-nav " href="#">
                     <div class="chapter-content">
-                        <div class="chapter-title ">
+                        <div class="chapter-title active ">
                             Project
                         </div>
                         <div class="chapter-icon">
@@ -87,7 +100,7 @@
             <div class="dropdown-menu cool-link">
                 <a class="chapter-nav " href="#">
                     <div class="chapter-content">
-                        <div class="chapter-title ">
+                        <div class="chapter-title active ">
                             Documentation
                         </div>
                         <div class="chapter-icon">
@@ -112,7 +125,7 @@
     <!-------- 侧边栏Navigation for mobile-------->
     <nav id="mobile-nav">
         <div class="logo">
-            <a href="https://simeixue.github.io/iDECtest/">
+            <a href="https://idec2021.github.io/NEFU_China/">
                 <img style="max-height: 400px" id="nav-logo" src="../../resources/HMAlogo.png" alt="This is our logo, but if you click it, you will return home">
             </a>
         </div>
@@ -171,18 +184,13 @@
     <!------------ 页面标题PAGE TITLE -------------------->
     <div class="page-title">
         <div class="page-title-content">
-            <h1>Description</h1><!---Page title -->
+            <h1>DESCRIPTION</h1><!---Page title -->
         </div>
     </div>
 </header>
 <div class="grid-normal">
     <!--------------Introduction/Summary--------------------->
     <div class="introduction grid-normal">
-<!--        <div class="introduction-content">-->
-<!--            <p>-->
-<!--                简介内容-->
-<!--            </p>-->
-<!--        </div>-->
     </div>
 </div>
 <div style="display:none" id="marker" class= "triangle-down"> </div>
@@ -223,13 +231,17 @@
                                     <img src="../../resources/Description/figure1.png" alt="">
                                 </div>
                                 <div class="width60-no-margin-text">
+									<p></p>
                                     <h1>What is a HMA?</h1>
+									<p></p>
                                     <p>Hydroxy-mandelic acid (HMA) is widely used in the production of aromatic drugs and spices<a linkedidchapter="r1" class="main-nav-link hyperlink"><sup>[1]</sup></a>. It can be used to prepare selectiveβ1-receptor antagonist atenolol and synthetic precursors of several non-ribosomal antibiotics<a linkedidchapter="r2" class="main-nav-link hyperlink"><sup>[2]</sup></a>.Moreover, p-hydroxymandelic acid shows promising applications in targeted drug delivery systems. But its market price is as high as $14,000 per kilogram, and its chemical synthesis methods have adverse environmental effects. Its biological methods have received a lot of attention recently.</p>
                                 </div>
                             </div>
                             <div class="figure-wrapper">
                                 <div class="width60-no-margin-text">
+									<p></p>
                                     <h1>The synthesis of HMA</h1>
+									<p></p>
                                     <p>As industries are evolving toward sustainable and environmental-friendly, microbial synthesis of these compounds attracted increasing attention<a linkedidchapter="r3" class="main-nav-link hyperlink"><sup>[3]</sup></a>. Microbial metabolism has been harnessed to provide us access to natural products that are needed for the survival and reproduction of the host organisms, leading to the challenge in achieving high yields of desired products. In recent years, the iterative “design-build-test-learn” cycle of the synthetic biology has enabled rapid design and generation of highly diverse libraries. However, screening for desirable variants remains a critical bottleneck, underlining the need for high-throughput approaches to easily identify candidate phenotypes<a linkedidchapter="r4" class="main-nav-link hyperlink"><sup>[4]</sup></a>.</p>
                                 </div>
                                 <div class="figure-container width20">
@@ -245,7 +257,7 @@
                                 </div>
                                 <div class="width60-no-margin-text">
                                     <p>In recent years, the development of directed evolution has broadened the design scope of protein engineering, which can modify proteins without knowing the structural information and mechanism of action of target proteins. We boldly attempted directed evolution of strains, reasonably designed and altered metabolic pathways to obtain our target strains.</p>
-                                    <p>With the popularity of AlphaFold 2 this year, we wondered if we could use protein structure prediction to better understand how individual amino acid site changes would affect the PobR protein pocket. So we tried to use bioinformatics methods to do molecular docking.</p>
+                                    <p>With the popularity of AlphaFold2 this year, we wondered if we could use protein structure prediction to better understand how individual amino acid site changes would affect the PobR protein pocket. So we tried to use bioinformatics methods to do molecular docking.</p>
                                 </div>
                             </div>
                         </div>
@@ -253,12 +265,15 @@
                             <h2>Approaches</h2>
                             <p>In this study, we aimed to develop an allosteric transcription factors (aTFs) based biosensor for HMA. There is no aTF that responds to HMA in nature,  However, HMA has high structural similarity to 4HB in both core structure (a hydroxyphenyl) and side chains. PobR, an aTF for HMA analog 4-hydroxybenzoic acid, was used to alter its selectivity and create novel aTFs responsive to HMA by directed evolution.</p>
                             <p>We developed a library through random mutagenesis of PobR using error-prone PCR amplifications. Then we used high-throughput methods to screen out clones that respond to HMA, so we could used the HMA-responsive aTF improve the yield of HMA through directed evolution.</p>
-                            <h1>Our Procedure</h1>
+                            <p></p>
+							<h1>Our Procedure</h1>
+							<p></p>
                             <div class="figure-container auto-margin">
-                                <img src="../../resources/temp.jpg" alt="">
-                                <p><strong>Figure1.</strong>这里用来插入一个流程图</p>
+                                <img src="../../resources/Description/flowchart.png" alt="">
+<!--                                <p><strong>Figure1.</strong>这里用来插入一个流程图</p> -->
+                                    <h3 style="text-align: center"><a href="https://idec2021.github.io/NEFU_China/web/page/PROJECT/Design.html" target="_blank">Check out our design section here→</a></h3>
+
                             </div>
-                            <p style="text-align: right"><a href="../PROJECT/Design.html">Check out our design section here→</a></p>
                         </div>
                         <div class="references" id="slide1-chapter4">
                             <h2>References</h2>
@@ -268,6 +283,7 @@
                                 <li id="r3">Mitchler, M. M., Garcia, J. M., Montero, N. E., & Williams, G. J. . Transcription factor-based biosensors: a molecular-guided approach for natural product engineering. Curr Opin Biotechnol,2021,69:172-181. </li>
                                 <li id="r4">Cheng, F., Tang, X. L., & Kardashliev, T. Transcription Factor-Based Biosensors in High-Throughput Screening: Advances and Applications. Biotechnology Journal, 2018,13:7.</li>
                             </ol>
+							<p></p><p></p><p></p>
                         </div>
                     </div>
                 </div>
@@ -281,44 +297,51 @@
     <img style="max-height: 70px" src="../../resources/to_top.png">
 </a>
 <!---------- FOOTER ------------>
-<footer id="footer">
-    <div class="contact-info">
-        <div class="contact-info-content">
-            <!--- About Us-->
-            <div class="box">
-                <h3>
-                    About Us
-                </h3>
-                <p>
-                    We are the 2021 team of iDEC NEFU_China!
-                </p>
-            </div>
-            <!---- Follow Us -->
-            <div class="box">
-                <h3>
-                    Follow Us
-                </h3>
-                <div class="social-media-icons">
-                    <a target="_blank" href="https://www.facebook.com/igemleiden/"> <i class="fab fa-facebook-square"></i></a>
-                    <a target="_blank" href="https://www.linkedin.com/in/igem-leiden/?originalSubdomain=nl"> <i class="fab fa-linkedin"></i></a>
-                    <a target="_blank" href="https://www.instagram.com/igemleiden/?hl=nl"> <i class="fab fa-instagram-square"></i> </a>
-                    <a target="_blank" href="https://twitter.com/igem_leiden"> <i class="fab fa-twitter-square"></i></a>
-                    <a target="_blank" href="https://www.youtube.com/channel/UCfEzpiBJ3NTQRGyslWHxzAg/featured"> <i class="fab fa-youtube-square"></i></a>
+    <footer id="footer">
+        <div class="contact-info">
+            <div class="contact-info-content">
+                <!--- About Us-->
+                <div class="box">
+                    <h3>
+                        About Us
+                    </h3>
+                    <p>
+                        This team is composed of enthusiastic  students from three different colleges and various majors. To spy out the secrets of directed evolution, a group of beginners are looking forward to creating extraordinary experiences and we did it.
+                    </p>
+                </div>
+                <!---- Follow Us -->
+                <div class="box">
+                    <h3>
+                        Helpful links
+                    </h3>
+                    <h4><a target="_blank" href="../../resources/poster.jpg">Poster</a></h4>
+                    <h4><a target="_blank" href="../../page/PROJECT/Design.html">Design</a></h4>
+                    <h4><a target="_blank" href="../../page/DOCUMENTATION/Notebook.html">Notebook</a></h4>
+                </div>
+                <!---- Contact Us-->
+                <div class="box">
+                    <h3>
+                        Address
+                    </h3>
+                    <p>
+                        Northeast Forestry University, Harbin, Heilongjiang 150040, P. R. China
+                    </p>
                 </div>
             </div>
-            <!---- Contact Us-->
-            <div class="box">
-                <h3>
-                    Contact Us
-                </h3>
-                <p>
-                    iDEC Team NEFU_China <br>
-                    <a>idec_nefu2021@163.com</a>
-                </p>
+            <hr color="white">
+            <div class="contact-info-content">
+                <div class="contact-icon">
+                    <a target="_blank" href=""> <i class="fa fa-envelope"></i>IDEC_NEFU2021@163.com</a>
+                </div>
+                <div class="contact-icon">
+                    <a target="_blank" href=""> <i class="fab fa-facebook-square"></i>iDEC NEFU China</a>
+                </div>
+                <div class="contact-icon">
+                    <a target="_blank" href=""> <i class="fab fa-twitter-square"></i>iDEC NEFU</a>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
 
 <script src= "../../JS/jQuery.js" type =text/javascript></script>
 <script src="../../JS/detect.js" type= "text/javascript"></script>
